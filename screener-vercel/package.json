@@ -1,0 +1,6 @@
+{
+  "name": "breakout-screener-api",
+  "version": "1.0.0",
+  "description": "Breakout Intelligence Terminal — Vercel API Proxy",
+  "engines": { "node": "18.x" }
+}
