@@ -1,0 +1,7040 @@
+[
+  {
+    "trade_id": "pb_1778450700",
+    "block_start": "2026-05-10T22:05:00+00:00",
+    "block_end": "2026-05-10T22:10:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.33,
+    "edge_pp": 20.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.293704930112525,
+      "body_pct": 0.293704930112525,
+      "is_xl_body": true,
+      "hour_utc": 22,
+      "candle_close": 80957.55,
+      "candle_open": 80720.47
+    },
+    "dry_run": false,
+    "payout": 15.15,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T22:05:30.810936+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:02:38.397068+00:00",
+    "actual_up": true,
+    "price_open": 80949.75230999,
+    "price_close": 81183.26327616,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778451000",
+    "block_start": "2026-05-10T22:10:00+00:00",
+    "block_end": "2026-05-10T22:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.26,
+    "edge_pp": 29.0,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.29175784099197305,
+      "body_pct": 0.29175784099197305,
+      "is_xl_body": true,
+      "hour_utc": 22,
+      "candle_close": 81193.75,
+      "candle_open": 80957.55
+    },
+    "dry_run": false,
+    "payout": 19.23,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T22:10:30.773725+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:02:38.776557+00:00",
+    "actual_up": true,
+    "price_open": 81183.26327616,
+    "price_close": 81314.32,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778452200",
+    "block_start": "2026-05-10T22:30:00+00:00",
+    "block_end": "2026-05-10T22:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.47,
+    "edge_pp": 6.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.2332561510902826,
+      "body_pct": 0.2332561510902826,
+      "is_xl_body": true,
+      "hour_utc": 22,
+      "candle_close": 81503.71,
+      "candle_open": 81314.04
+    },
+    "dry_run": false,
+    "payout": 10.64,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T22:30:30.806724+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:02:39.359582+00:00",
+    "actual_up": true,
+    "price_open": 81492.49999998,
+    "price_close": 82014.12689658,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778452500",
+    "block_start": "2026-05-10T22:35:00+00:00",
+    "block_end": "2026-05-10T22:40:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.48,
+    "edge_pp": 7.0,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.6427069393528063,
+      "body_pct": 0.6427069393528063,
+      "is_xl_body": true,
+      "hour_utc": 22,
+      "candle_close": 82027.54,
+      "candle_open": 81503.71
+    },
+    "dry_run": false,
+    "payout": 10.42,
+    "result": "WIN",
+    "placed_at": "2026-05-10T22:35:30.703737+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:02:39.765944+00:00",
+    "actual_up": false,
+    "price_open": 82014.12689658,
+    "price_close": 81926.28125028001,
+    "pnl": 5.42
+  },
+  {
+    "trade_id": "pb_1778454000",
+    "block_start": "2026-05-10T23:00:00+00:00",
+    "block_end": "2026-05-10T23:05:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.37,
+    "edge_pp": 16.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.012019314282273938,
+      "body_pct": 0.012019314282273938,
+      "is_xl_body": false,
+      "hour_utc": 22,
+      "candle_close": 82044.49,
+      "candle_open": 82034.63
+    },
+    "dry_run": false,
+    "payout": 13.51,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T23:00:30.773421+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:02:40.120260+00:00",
+    "actual_up": true,
+    "price_open": 82038.0,
+    "price_close": 82220.52037575,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778454300",
+    "block_start": "2026-05-10T23:05:00+00:00",
+    "block_end": "2026-05-10T23:10:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.429,
+    "ask": 0.35,
+    "edge_pp": 22.1,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+G_XL_DOWN",
+      "S4+G_LateNight_DOWN",
+      "S3+G_XL_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN",
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.22467078532635373,
+      "body_pct": 0.22467078532635373,
+      "is_xl_body": true,
+      "hour_utc": 23,
+      "candle_close": 82228.82,
+      "candle_open": 82044.49
+    },
+    "dry_run": false,
+    "payout": 14.29,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T23:05:30.680496+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:03:56.062731+00:00",
+    "actual_up": true,
+    "price_open": 82220.52037575,
+    "price_close": 82305.920775,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778454600",
+    "block_start": "2026-05-10T23:10:00+00:00",
+    "block_end": "2026-05-10T23:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.396,
+    "ask": 0.45,
+    "edge_pp": 15.4,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+G_LateNight_DOWN",
+      "S4+G_LateNight_DOWN",
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.10373491921687354,
+      "body_pct": 0.10373491921687354,
+      "is_xl_body": false,
+      "hour_utc": 23,
+      "candle_close": 82314.12,
+      "candle_open": 82228.82
+    },
+    "dry_run": false,
+    "payout": 11.11,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T23:10:30.622419+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:03:56.592047+00:00",
+    "actual_up": true,
+    "price_open": 82305.920775,
+    "price_close": 82386.5,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778454900",
+    "block_start": "2026-05-10T23:15:00+00:00",
+    "block_end": "2026-05-10T23:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.396,
+    "ask": 0.44,
+    "edge_pp": 16.4,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+G_LateNight_DOWN",
+      "S4+G_LateNight_DOWN",
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 6,
+      "body_abs": 0.10434420052649468,
+      "body_pct": 0.10434420052649468,
+      "is_xl_body": false,
+      "hour_utc": 23,
+      "candle_close": 82400.0,
+      "candle_open": 82314.11
+    },
+    "dry_run": false,
+    "payout": 11.36,
+    "result": "WIN",
+    "placed_at": "2026-05-10T23:15:30.697030+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:03:57.084340+00:00",
+    "actual_up": false,
+    "price_open": 82386.5,
+    "price_close": 82260.99036065,
+    "pnl": 6.36
+  },
+  {
+    "trade_id": "pb_1778455200",
+    "block_start": "2026-05-10T23:20:00+00:00",
+    "block_end": "2026-05-10T23:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.49,
+    "edge_pp": 4.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.15758495145631773,
+      "body_pct": -0.15758495145631773,
+      "is_xl_body": true,
+      "hour_utc": 23,
+      "candle_close": 82270.15,
+      "candle_open": 82400.0
+    },
+    "dry_run": false,
+    "payout": 10.2,
+    "result": "WIN",
+    "placed_at": "2026-05-10T23:20:30.768267+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:03:57.493909+00:00",
+    "actual_up": true,
+    "price_open": 82260.99036065,
+    "price_close": 82266.0,
+    "pnl": 5.2
+  },
+  {
+    "trade_id": "pb_1778456400",
+    "block_start": "2026-05-10T23:40:00+00:00",
+    "block_end": "2026-05-10T23:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.47,
+    "edge_pp": 6.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.19544687124443874,
+      "body_pct": 0.19544687124443874,
+      "is_xl_body": true,
+      "hour_utc": 23,
+      "candle_close": 82372.28,
+      "candle_open": 82211.6
+    },
+    "dry_run": false,
+    "payout": 10.64,
+    "result": "LOSS",
+    "placed_at": "2026-05-10T23:40:30.687276+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:03:57.936178+00:00",
+    "actual_up": true,
+    "price_open": 82359.63,
+    "price_close": 82373.25751502,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778457300",
+    "block_start": "2026-05-10T23:55:00+00:00",
+    "block_end": "2026-05-11T00:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.37,
+    "edge_pp": 17.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.15596454761474024,
+      "body_pct": -0.15596454761474024,
+      "is_xl_body": true,
+      "hour_utc": 23,
+      "candle_close": 82191.6,
+      "candle_open": 82319.99
+    },
+    "dry_run": false,
+    "payout": 13.51,
+    "result": "WIN",
+    "placed_at": "2026-05-10T23:55:30.904524+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:22.728111+00:00",
+    "actual_up": true,
+    "price_open": 82191.61,
+    "price_close": 82210.07,
+    "pnl": 8.51
+  },
+  {
+    "trade_id": "pb_1778457900",
+    "block_start": "2026-05-11T00:05:00+00:00",
+    "block_end": "2026-05-11T00:10:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.48,
+    "edge_pp": 5.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.14477545147450194,
+      "body_pct": -0.14477545147450194,
+      "is_xl_body": true,
+      "hour_utc": 0,
+      "candle_close": 82091.05,
+      "candle_open": 82210.07
+    },
+    "dry_run": false,
+    "payout": 10.42,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T00:05:30.782101+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:23.554084+00:00",
+    "actual_up": false,
+    "price_open": 82091.05,
+    "price_close": 81980.05,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778458500",
+    "block_start": "2026-05-11T00:15:00+00:00",
+    "block_end": "2026-05-11T00:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.28,
+    "edge_pp": 26.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.12482305146191268,
+      "body_pct": -0.12482305146191268,
+      "is_xl_body": false,
+      "hour_utc": 0,
+      "candle_close": 81877.72,
+      "candle_open": 81980.05
+    },
+    "dry_run": false,
+    "payout": 17.86,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T00:15:30.717437+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:24.396211+00:00",
+    "actual_up": false,
+    "price_open": 81877.73,
+    "price_close": 81579.77,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778458800",
+    "block_start": "2026-05-11T00:20:00+00:00",
+    "block_end": "2026-05-11T00:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.37,
+    "edge_pp": 18.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.3639084767005532,
+      "body_pct": -0.3639084767005532,
+      "is_xl_body": true,
+      "hour_utc": 0,
+      "candle_close": 81579.77,
+      "candle_open": 81877.73
+    },
+    "dry_run": false,
+    "payout": 13.51,
+    "result": "WIN",
+    "placed_at": "2026-05-11T00:20:30.762576+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:25.328085+00:00",
+    "actual_up": true,
+    "price_open": 81579.77,
+    "price_close": 81784.18,
+    "pnl": 8.51
+  },
+  {
+    "trade_id": "pb_1778460300",
+    "block_start": "2026-05-11T00:45:00+00:00",
+    "block_end": "2026-05-11T00:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.45,
+    "edge_pp": 9.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.1408860425034727,
+      "body_pct": -0.1408860425034727,
+      "is_xl_body": true,
+      "hour_utc": 0,
+      "candle_close": 81596.31,
+      "candle_open": 81711.43
+    },
+    "dry_run": false,
+    "payout": 11.11,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T00:45:30.737734+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:26.281121+00:00",
+    "actual_up": false,
+    "price_open": 81596.32,
+    "price_close": 81577.11,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778460600",
+    "block_start": "2026-05-11T00:50:00+00:00",
+    "block_end": "2026-05-11T00:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.32,
+    "edge_pp": 22.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.023542728397563027,
+      "body_pct": -0.023542728397563027,
+      "is_xl_body": false,
+      "hour_utc": 0,
+      "candle_close": 81577.11,
+      "candle_open": 81596.32
+    },
+    "dry_run": false,
+    "payout": 15.62,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T00:50:30.716010+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:27.147047+00:00",
+    "actual_up": false,
+    "price_open": 81577.1,
+    "price_close": 81345.21,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778460900",
+    "block_start": "2026-05-11T00:55:00+00:00",
+    "block_end": "2026-05-11T01:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.4,
+    "edge_pp": 15.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.2842586951485152,
+      "body_pct": -0.2842586951485152,
+      "is_xl_body": true,
+      "hour_utc": 0,
+      "candle_close": 81345.21,
+      "candle_open": 81577.1
+    },
+    "dry_run": false,
+    "payout": 12.5,
+    "result": "WIN",
+    "placed_at": "2026-05-11T00:55:30.685251+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:27.951518+00:00",
+    "actual_up": true,
+    "price_open": 81345.21,
+    "price_close": 81471.13,
+    "pnl": 7.5
+  },
+  {
+    "trade_id": "pb_1778463600",
+    "block_start": "2026-05-11T01:40:00+00:00",
+    "block_end": "2026-05-11T01:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.25,
+    "edge_pp": 29.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.07107649937757629,
+      "body_pct": -0.07107649937757629,
+      "is_xl_body": false,
+      "hour_utc": 1,
+      "candle_close": 81502.04,
+      "candle_open": 81560.01
+    },
+    "dry_run": false,
+    "payout": 20.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T01:40:30.668218+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:28.751013+00:00",
+    "actual_up": false,
+    "price_open": 81502.04,
+    "price_close": 81493.77,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778463900",
+    "block_start": "2026-05-11T01:45:00+00:00",
+    "block_end": "2026-05-11T01:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.19,
+    "edge_pp": 35.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.010146985277901662,
+      "body_pct": -0.010146985277901662,
+      "is_xl_body": false,
+      "hour_utc": 1,
+      "candle_close": 81493.77,
+      "candle_open": 81502.04
+    },
+    "dry_run": false,
+    "payout": 26.32,
+    "result": "WIN",
+    "placed_at": "2026-05-11T01:45:30.656293+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:29.652958+00:00",
+    "actual_up": true,
+    "price_open": 81493.77,
+    "price_close": 81576.45,
+    "pnl": 21.32
+  },
+  {
+    "trade_id": "pb_1778466000",
+    "block_start": "2026-05-11T02:20:00+00:00",
+    "block_end": "2026-05-11T02:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.49,
+    "edge_pp": 6.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.1443256696636204,
+      "body_pct": -0.1443256696636204,
+      "is_xl_body": true,
+      "hour_utc": 2,
+      "candle_close": 81288.68,
+      "candle_open": 81406.17
+    },
+    "dry_run": false,
+    "payout": 10.2,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T02:20:30.759685+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:30.561464+00:00",
+    "actual_up": false,
+    "price_open": 81288.67,
+    "price_close": 81230.01,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778466300",
+    "block_start": "2026-05-11T02:25:00+00:00",
+    "block_end": "2026-05-11T02:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.48,
+    "edge_pp": 6.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.07216257813051129,
+      "body_pct": -0.07216257813051129,
+      "is_xl_body": false,
+      "hour_utc": 2,
+      "candle_close": 81230.01,
+      "candle_open": 81288.67
+    },
+    "dry_run": false,
+    "payout": 10.42,
+    "result": "WIN",
+    "placed_at": "2026-05-11T02:25:30.756839+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:31.398284+00:00",
+    "actual_up": true,
+    "price_open": 81230.01,
+    "price_close": 81241.58,
+    "pnl": 5.42
+  },
+  {
+    "trade_id": "pb_1778477400",
+    "block_start": "2026-05-11T05:30:00+00:00",
+    "block_end": "2026-05-11T05:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.37,
+    "edge_pp": 16.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.0394901129533457,
+      "body_pct": 0.0394901129533457,
+      "is_xl_body": false,
+      "hour_utc": 5,
+      "candle_close": 80963.61,
+      "candle_open": 80931.65
+    },
+    "dry_run": false,
+    "payout": 13.51,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T05:30:30.709497+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:32.217380+00:00",
+    "actual_up": true,
+    "price_open": 80963.61,
+    "price_close": 80976.64,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778480700",
+    "block_start": "2026-05-11T06:25:00+00:00",
+    "block_end": "2026-05-11T06:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.43,
+    "edge_pp": 10.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.15334287846065622,
+      "body_pct": 0.15334287846065622,
+      "is_xl_body": true,
+      "hour_utc": 6,
+      "candle_close": 80982.0,
+      "candle_open": 80858.01
+    },
+    "dry_run": false,
+    "payout": 11.63,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T06:25:30.730238+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:32.997114+00:00",
+    "actual_up": true,
+    "price_open": 80982.41,
+    "price_close": 80988.0,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778481900",
+    "block_start": "2026-05-11T06:45:00+00:00",
+    "block_end": "2026-05-11T06:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.52,
+    "edge_pp": 3.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.1338338892961033,
+      "body_pct": -0.1338338892961033,
+      "is_xl_body": true,
+      "hour_utc": 6,
+      "candle_close": 80820.37,
+      "candle_open": 80928.68
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T06:45:30.921377+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:33.800571+00:00",
+    "actual_up": false,
+    "price_open": 80820.37,
+    "price_close": 80765.96,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778487000",
+    "block_start": "2026-05-11T08:10:00+00:00",
+    "block_end": "2026-05-11T08:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.52,
+    "edge_pp": 2.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.05788685474029923,
+      "body_pct": -0.05788685474029923,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 80662.45,
+      "candle_open": 80709.17
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T08:10:30.781916+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:34.692193+00:00",
+    "actual_up": true,
+    "price_open": 80662.44,
+    "price_close": 80750.23,
+    "pnl": 4.62
+  },
+  {
+    "trade_id": "pb_1778489100",
+    "block_start": "2026-05-11T08:45:00+00:00",
+    "block_end": "2026-05-11T08:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.42,
+    "edge_pp": 11.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.07176426065542195,
+      "body_pct": 0.07176426065542195,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 80836.34,
+      "candle_open": 80778.37
+    },
+    "dry_run": false,
+    "payout": 11.9,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T08:45:30.685087+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:35.485634+00:00",
+    "actual_up": true,
+    "price_open": 80836.33,
+    "price_close": 80855.9,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778489400",
+    "block_start": "2026-05-11T08:50:00+00:00",
+    "block_end": "2026-05-11T08:55:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.432,
+    "ask": 0.52,
+    "edge_pp": 4.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+G_Europe_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.024209411783034228,
+      "body_pct": 0.024209411783034228,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 80855.9,
+      "candle_open": 80836.33
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T08:50:30.660814+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:36.304717+00:00",
+    "actual_up": false,
+    "price_open": 80855.98,
+    "price_close": 80794.19,
+    "pnl": 4.62
+  },
+  {
+    "trade_id": "pb_1778490900",
+    "block_start": "2026-05-11T09:15:00+00:00",
+    "block_end": "2026-05-11T09:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.44,
+    "edge_pp": 9.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.07586812425802066,
+      "body_pct": 0.07586812425802066,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 80925.35,
+      "candle_open": 80864.0
+    },
+    "dry_run": false,
+    "payout": 11.36,
+    "result": "WIN",
+    "placed_at": "2026-05-11T09:15:30.807071+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:37.094157+00:00",
+    "actual_up": false,
+    "price_open": 80925.36,
+    "price_close": 80916.48,
+    "pnl": 6.36
+  },
+  {
+    "trade_id": "pb_1778492400",
+    "block_start": "2026-05-11T09:40:00+00:00",
+    "block_end": "2026-05-11T09:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.43,
+    "edge_pp": 11.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.022906225152986927,
+      "body_pct": -0.022906225152986927,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 80876.51,
+      "candle_open": 80895.04
+    },
+    "dry_run": false,
+    "payout": 11.63,
+    "result": "WIN",
+    "placed_at": "2026-05-11T09:40:30.687990+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:37.957822+00:00",
+    "actual_up": true,
+    "price_open": 80876.51,
+    "price_close": 80924.39,
+    "pnl": 6.63
+  },
+  {
+    "trade_id": "pb_1778498400",
+    "block_start": "2026-05-11T11:20:00+00:00",
+    "block_end": "2026-05-11T11:25:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.31,
+    "edge_pp": 22.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.16878409494300955,
+      "body_pct": 0.16878409494300955,
+      "is_xl_body": true,
+      "hour_utc": 11,
+      "candle_close": 81098.07,
+      "candle_open": 80961.42
+    },
+    "dry_run": false,
+    "payout": 16.13,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T11:20:30.707508+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:38.878282+00:00",
+    "actual_up": true,
+    "price_open": 81098.07,
+    "price_close": 81129.98,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778501700",
+    "block_start": "2026-05-11T12:15:00+00:00",
+    "block_end": "2026-05-11T12:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.52,
+    "edge_pp": 2.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.03168108854740617,
+      "body_pct": -0.03168108854740617,
+      "is_xl_body": false,
+      "hour_utc": 12,
+      "candle_close": 81095.25,
+      "candle_open": 81120.95
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T12:15:30.797720+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:05:59.883242+00:00",
+    "actual_up": true,
+    "price_open": 81095.25,
+    "price_close": 81127.35,
+    "pnl": 4.62
+  },
+  {
+    "trade_id": "pb_1778503800",
+    "block_start": "2026-05-11T12:50:00+00:00",
+    "block_end": "2026-05-11T12:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.573,
+    "ask": 0.47,
+    "edge_pp": 10.3,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+R_Europe_UP",
+      "S4+R_Europe_UP",
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.01391023646785164,
+      "body_pct": -0.01391023646785164,
+      "is_xl_body": false,
+      "hour_utc": 12,
+      "candle_close": 81151.96,
+      "candle_open": 81163.25
+    },
+    "dry_run": false,
+    "payout": 10.64,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T12:50:30.878780+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:06:00.783757+00:00",
+    "actual_up": false,
+    "price_open": 81151.96,
+    "price_close": 81077.6,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778504100",
+    "block_start": "2026-05-11T12:55:00+00:00",
+    "block_end": "2026-05-11T13:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.573,
+    "ask": 0.53,
+    "edge_pp": 4.3,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+R_Europe_UP",
+      "S4+R_Europe_UP",
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 6,
+      "body_abs": 0.09163056566964073,
+      "body_pct": -0.09163056566964073,
+      "is_xl_body": false,
+      "hour_utc": 12,
+      "candle_close": 81077.6,
+      "candle_open": 81151.96
+    },
+    "dry_run": false,
+    "payout": 9.43,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T12:55:30.728592+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:06:01.734478+00:00",
+    "actual_up": false,
+    "price_open": 81077.6,
+    "price_close": 81054.65,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778505300",
+    "block_start": "2026-05-11T13:15:00+00:00",
+    "block_end": "2026-05-11T13:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.41,
+    "edge_pp": 12.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.030457647379940875,
+      "body_pct": 0.030457647379940875,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 81285.13,
+      "candle_open": 81260.38
+    },
+    "dry_run": false,
+    "payout": 12.2,
+    "result": "WIN",
+    "placed_at": "2026-05-11T13:15:30.721892+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:20:16.830910+00:00",
+    "actual_up": false,
+    "price_open": 81260.61016003,
+    "price_close": 81208.16559749,
+    "pnl": 7.2
+  },
+  {
+    "trade_id": "pb_1778506200",
+    "block_start": "2026-05-11T13:30:00+00:00",
+    "block_end": "2026-05-11T13:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.28,
+    "edge_pp": 25.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.16164505678491492,
+      "body_pct": -0.16164505678491492,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 81151.64,
+      "candle_open": 81283.03
+    },
+    "dry_run": false,
+    "payout": 17.86,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T13:30:31.191867+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:35:17.325301+00:00",
+    "actual_up": false,
+    "price_open": 81131.48740138,
+    "price_close": 80889.73845919,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778507100",
+    "block_start": "2026-05-11T13:45:00+00:00",
+    "block_end": "2026-05-11T13:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.44,
+    "edge_pp": 9.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.2593938935286857,
+      "body_pct": 0.2593938935286857,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 81079.06,
+      "candle_open": 80869.29
+    },
+    "dry_run": false,
+    "payout": 11.36,
+    "result": "WIN",
+    "placed_at": "2026-05-11T13:45:30.697836+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T13:50:16.745668+00:00",
+    "actual_up": false,
+    "price_open": 81055.75,
+    "price_close": 80999.79871931,
+    "pnl": 6.36
+  },
+  {
+    "trade_id": "pb_1778508300",
+    "block_start": "2026-05-11T14:05:00+00:00",
+    "block_end": "2026-05-11T14:10:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.44,
+    "edge_pp": 11.0,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.14284831472663898,
+      "body_pct": 0.14284831472663898,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 81187.82,
+      "candle_open": 81072.01
+    },
+    "dry_run": false,
+    "payout": 11.36,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T14:05:31.120270+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T14:10:17.548660+00:00",
+    "actual_up": true,
+    "price_open": 81159.26813395,
+    "price_close": 81186.0,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778509500",
+    "block_start": "2026-05-11T14:25:00+00:00",
+    "block_end": "2026-05-11T14:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.51,
+    "edge_pp": 4.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.16422914781880982,
+      "body_pct": -0.16422914781880982,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 80954.75,
+      "candle_open": 81087.92
+    },
+    "dry_run": false,
+    "payout": 9.8,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T14:25:30.783314+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T14:30:16.803157+00:00",
+    "actual_up": false,
+    "price_open": 80932.49,
+    "price_close": 80725.25,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778510400",
+    "block_start": "2026-05-11T14:40:00+00:00",
+    "block_end": "2026-05-11T14:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.49,
+    "edge_pp": 4.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.32501619870611975,
+      "body_pct": 0.32501619870611975,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 80870.28,
+      "candle_open": 80608.29
+    },
+    "dry_run": false,
+    "payout": 10.2,
+    "result": "WIN",
+    "placed_at": "2026-05-11T14:40:30.746529+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T14:45:16.993077+00:00",
+    "actual_up": false,
+    "price_open": 80836.5,
+    "price_close": 80768.02,
+    "pnl": 5.2
+  },
+  {
+    "trade_id": "pb_1778511300",
+    "block_start": "2026-05-11T14:55:00+00:00",
+    "block_end": "2026-05-11T15:00:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.46,
+    "edge_pp": 7.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.16530626549011623,
+      "body_pct": 0.16530626549011623,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 80886.63,
+      "candle_open": 80753.14
+    },
+    "dry_run": false,
+    "payout": 10.87,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T14:55:30.800186+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T15:00:16.778434+00:00",
+    "actual_up": true,
+    "price_open": 80855.55,
+    "price_close": 80916.79632118001,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778513100",
+    "block_start": "2026-05-11T15:25:00+00:00",
+    "block_end": "2026-05-11T15:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.42,
+    "edge_pp": 11.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.13292275520210528,
+      "body_pct": 0.13292275520210528,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 81056.87,
+      "candle_open": 80949.27
+    },
+    "dry_run": false,
+    "payout": 11.9,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T15:25:30.822347+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T15:30:16.995556+00:00",
+    "actual_up": true,
+    "price_open": 81023.315,
+    "price_close": 81316.14999999,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778513400",
+    "block_start": "2026-05-11T15:30:00+00:00",
+    "block_end": "2026-05-11T15:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.52,
+    "edge_pp": 3.0,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.35346783641313945,
+      "body_pct": 0.35346783641313945,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 81343.39,
+      "candle_open": 81056.88
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T15:30:30.698238+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T15:35:16.772176+00:00",
+    "actual_up": false,
+    "price_open": 81316.14999999,
+    "price_close": 81196.50000001,
+    "pnl": 4.62
+  },
+  {
+    "trade_id": "pb_1778513700",
+    "block_start": "2026-05-11T15:35:00+00:00",
+    "block_end": "2026-05-11T15:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.51,
+    "edge_pp": 2.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.14277744544177953,
+      "body_pct": -0.14277744544177953,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 81227.24,
+      "candle_open": 81343.38
+    },
+    "dry_run": false,
+    "payout": 9.8,
+    "result": "WIN",
+    "placed_at": "2026-05-11T15:35:30.680255+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T15:40:16.772328+00:00",
+    "actual_up": true,
+    "price_open": 81196.50000001,
+    "price_close": 81251.85222451,
+    "pnl": 4.8
+  },
+  {
+    "trade_id": "pb_1778514900",
+    "block_start": "2026-05-11T15:55:00+00:00",
+    "block_end": "2026-05-11T16:00:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.22,
+    "edge_pp": 31.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.14652996773583052,
+      "body_pct": 0.14652996773583052,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 81351.56,
+      "candle_open": 81232.53
+    },
+    "dry_run": false,
+    "payout": 22.73,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T15:55:30.700901+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T16:00:16.721728+00:00",
+    "actual_up": true,
+    "price_open": 81328.77,
+    "price_close": 81422.895,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778515800",
+    "block_start": "2026-05-11T16:10:00+00:00",
+    "block_end": "2026-05-11T16:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.42,
+    "edge_pp": 11.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.2708281579174144,
+      "body_pct": 0.2708281579174144,
+      "is_xl_body": true,
+      "hour_utc": 16,
+      "candle_close": 81574.5,
+      "candle_open": 81354.17
+    },
+    "dry_run": false,
+    "payout": 11.9,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T16:10:30.808924+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T16:15:16.847274+00:00",
+    "actual_up": true,
+    "price_open": 81568.57583591,
+    "price_close": 81766.67263162001,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778516400",
+    "block_start": "2026-05-11T16:20:00+00:00",
+    "block_end": "2026-05-11T16:25:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.49,
+    "edge_pp": 4.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.05535128441390494,
+      "body_pct": 0.05535128441390494,
+      "is_xl_body": false,
+      "hour_utc": 16,
+      "candle_close": 81831.99,
+      "candle_open": 81786.72
+    },
+    "dry_run": false,
+    "payout": 10.2,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T16:20:30.782316+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T16:25:16.807138+00:00",
+    "actual_up": true,
+    "price_open": 81807.0,
+    "price_close": 81830.42183068,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778519400",
+    "block_start": "2026-05-11T17:10:00+00:00",
+    "block_end": "2026-05-11T17:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.41,
+    "edge_pp": 13.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.10262460652492239,
+      "body_pct": -0.10262460652492239,
+      "is_xl_body": false,
+      "hour_utc": 17,
+      "candle_close": 81436.75,
+      "candle_open": 81520.41
+    },
+    "dry_run": false,
+    "payout": 12.2,
+    "result": "WIN",
+    "placed_at": "2026-05-11T17:10:30.794710+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T17:15:16.810458+00:00",
+    "actual_up": true,
+    "price_open": 81404.50000001,
+    "price_close": 81488.0,
+    "pnl": 7.2
+  },
+  {
+    "trade_id": "pb_1778521200",
+    "block_start": "2026-05-11T17:40:00+00:00",
+    "block_end": "2026-05-11T17:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.443,
+    "ask": 0.46,
+    "edge_pp": 9.7,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+G_XL_DOWN",
+      "S3+G_general_DOWN",
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.20702849056239955,
+      "body_pct": 0.20702849056239955,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 81863.2,
+      "candle_open": 81694.07
+    },
+    "dry_run": false,
+    "payout": 10.87,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T17:40:30.873253+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T17:45:16.937236+00:00",
+    "actual_up": true,
+    "price_open": 81846.17,
+    "price_close": 81967.89849906,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778521500",
+    "block_start": "2026-05-11T17:45:00+00:00",
+    "block_end": "2026-05-11T17:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.429,
+    "ask": 0.52,
+    "edge_pp": 5.1,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+G_XL_DOWN",
+      "S3+G_XL_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN",
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.14023395127481325,
+      "body_pct": 0.14023395127481325,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 81978.0,
+      "candle_open": 81863.2
+    },
+    "dry_run": false,
+    "payout": 9.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T17:45:30.755461+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T17:50:16.846146+00:00",
+    "actual_up": false,
+    "price_open": 81967.89849906,
+    "price_close": 81934.23163553,
+    "pnl": 4.62
+  },
+  {
+    "trade_id": "pb_1778524200",
+    "block_start": "2026-05-11T18:30:00+00:00",
+    "block_end": "2026-05-11T18:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.36,
+    "edge_pp": 19.0,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.1325822252674952,
+      "body_pct": 0.1325822252674952,
+      "is_xl_body": true,
+      "hour_utc": 18,
+      "candle_close": 82042.69,
+      "candle_open": 81934.06
+    },
+    "dry_run": false,
+    "payout": 13.89,
+    "result": "WIN",
+    "placed_at": "2026-05-11T18:30:30.897831+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T18:35:16.973634+00:00",
+    "actual_up": false,
+    "price_open": 82024.77288688,
+    "price_close": 82002.21533041,
+    "pnl": 8.89
+  },
+  {
+    "trade_id": "pb_1778525100",
+    "block_start": "2026-05-11T18:45:00+00:00",
+    "block_end": "2026-05-11T18:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.24,
+    "edge_pp": 30.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.037117958261029836,
+      "body_pct": -0.037117958261029836,
+      "is_xl_body": false,
+      "hour_utc": 18,
+      "candle_close": 81951.45,
+      "candle_open": 81981.88
+    },
+    "dry_run": false,
+    "payout": 20.83,
+    "result": "WIN",
+    "placed_at": "2026-05-11T18:45:30.818218+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T18:50:16.846250+00:00",
+    "actual_up": true,
+    "price_open": 81938.16806087,
+    "price_close": 82011.87122767,
+    "pnl": 15.83
+  },
+  {
+    "trade_id": "pb_1778527800",
+    "block_start": "2026-05-11T19:30:00+00:00",
+    "block_end": "2026-05-11T19:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.39,
+    "edge_pp": 14.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.1798778600201883,
+      "body_pct": -0.1798778600201883,
+      "is_xl_body": true,
+      "hour_utc": 19,
+      "candle_close": 81902.53,
+      "candle_open": 82050.12
+    },
+    "dry_run": false,
+    "payout": 12.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T19:30:30.753244+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T19:35:16.926474+00:00",
+    "actual_up": false,
+    "price_open": 81883.6969501,
+    "price_close": 81840.14999999,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778530500",
+    "block_start": "2026-05-11T20:15:00+00:00",
+    "block_end": "2026-05-11T20:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.42,
+    "edge_pp": 11.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.16021359537589935,
+      "body_pct": -0.16021359537589935,
+      "is_xl_body": true,
+      "hour_utc": 20,
+      "candle_close": 81915.27,
+      "candle_open": 82046.72
+    },
+    "dry_run": false,
+    "payout": 11.9,
+    "result": "WIN",
+    "placed_at": "2026-05-11T20:15:30.678249+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-11T20:20:16.775599+00:00",
+    "actual_up": true,
+    "price_open": 81900.00503008,
+    "price_close": 81947.54797238,
+    "pnl": 6.9
+  },
+  {
+    "trade_id": "pb_1778535000",
+    "block_start": "2026-05-11T21:30:00+00:00",
+    "block_end": "2026-05-11T21:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.49,
+    "edge_pp": 5.9,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.045961643942965626,
+      "body_pct": -0.045961643942965626,
+      "is_xl_body": false,
+      "hour_utc": 21,
+      "candle_close": 81639.26,
+      "candle_open": 81676.8
+    },
+    "dry_run": false,
+    "payout": 10.2,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T21:30:31.160251+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x25fd7855f342c057a9d868f7c1f93156b00fcd100ab83f5466e78e0cf214bb2f",
+      "takingAmount": "9.918366",
+      "makingAmount": "4.859999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x542bd737004e5cb2fd14614673a56e46c6efe02a4d9403e68b5ddc660885440b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-11T21:35:18.024760+00:00",
+    "actual_up": false,
+    "price_open": 81621.8,
+    "price_close": 81583.89021375,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778535600",
+    "block_start": "2026-05-11T21:40:00+00:00",
+    "block_end": "2026-05-11T21:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.44,
+    "edge_pp": 9.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.14210080775413375,
+      "body_pct": 0.14210080775413375,
+      "is_xl_body": true,
+      "hour_utc": 21,
+      "candle_close": 81720.0,
+      "candle_open": 81604.04
+    },
+    "dry_run": false,
+    "payout": 11.36,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T21:40:30.704996+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x541909cda1532b811d1ec9b694bbc11c73ef8e69bcea24ece53b92595947203b",
+      "takingAmount": "11.136362",
+      "makingAmount": "4.899999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x596a052a05f15617c99d6586a4dca4225ad43cbf4bb3606924262ed1e5f3f2c3"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-11T21:45:17.125746+00:00",
+    "actual_up": true,
+    "price_open": 81698.09262105,
+    "price_close": 81715.57,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778539800",
+    "block_start": "2026-05-11T22:50:00+00:00",
+    "block_end": "2026-05-11T22:55:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.436,
+    "ask": 0.41,
+    "edge_pp": 15.4,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+G_LateNight_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.05758775530266562,
+      "body_pct": 0.05758775530266562,
+      "is_xl_body": false,
+      "hour_utc": 22,
+      "candle_close": 81835.32,
+      "candle_open": 81788.22
+    },
+    "dry_run": false,
+    "payout": 12.2,
+    "result": "LOSS",
+    "placed_at": "2026-05-11T22:50:30.650025+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x99ceba1983a814bd4582dec23b5372b2dfb6bc3141beaea095ea98b20009fb5d",
+      "takingAmount": "11.780486",
+      "makingAmount": "4.829999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe054086fe1cceddbb9ae5b6ac948bc2007f0ca271fdfee670dbf2393cb4f3419"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-11T22:55:17.010530+00:00",
+    "actual_up": true,
+    "price_open": 81823.22501355,
+    "price_close": 81838.50448337001,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778540100",
+    "block_start": "2026-05-11T22:55:00+00:00",
+    "block_end": "2026-05-11T23:00:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.396,
+    "ask": 0.58,
+    "edge_pp": 2.4,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+G_LateNight_DOWN",
+      "S4+G_LateNight_DOWN",
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.025331357495590137,
+      "body_pct": 0.025331357495590137,
+      "is_xl_body": false,
+      "hour_utc": 22,
+      "candle_close": 81856.06,
+      "candle_open": 81835.33
+    },
+    "dry_run": false,
+    "payout": 8.62,
+    "result": "WIN",
+    "placed_at": "2026-05-11T22:55:30.694283+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x1c9ca27af35cbb77a59cd35d12bbb81b635d3924efc5bc9710f3403571778b26",
+      "takingAmount": "7.603447",
+      "makingAmount": "4.409999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x20b30b08e5f41458e58287aa7fbbf98ebcb0a1f0f7e24049514b690dff386db0"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-11T23:00:17.092884+00:00",
+    "actual_up": false,
+    "price_open": 81838.50448337001,
+    "price_close": 81814.102291,
+    "pnl": 3.62
+  },
+  {
+    "trade_id": "pb_1778541000",
+    "block_start": "2026-05-11T23:10:00+00:00",
+    "block_end": "2026-05-11T23:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.46,
+    "edge_pp": 8.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.08055069429268351,
+      "body_pct": -0.08055069429268351,
+      "is_xl_body": false,
+      "hour_utc": 23,
+      "candle_close": 81708.72,
+      "candle_open": 81774.59
+    },
+    "dry_run": false,
+    "payout": 10.87,
+    "result": "WIN",
+    "placed_at": "2026-05-11T23:10:30.837371+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x233e81aadf37b800729d9195006681a05bab46717b3af453c3e5e77fdafa361b",
+      "takingAmount": "9.978259",
+      "makingAmount": "4.589999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xd40a85b27c4fc3526c002851016ec2af0a89bed0822ed4193f1bcc0453882a69"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-11T23:15:17.177624+00:00",
+    "actual_up": true,
+    "price_open": 81689.265,
+    "price_close": 81708.5520615,
+    "pnl": 5.87
+  },
+  {
+    "trade_id": "pb_1778544000",
+    "block_start": "2026-05-12T00:00:00+00:00",
+    "block_end": "2026-05-12T00:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.39,
+    "edge_pp": 15.2,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.015068867292090282,
+      "body_pct": -0.015068867292090282,
+      "is_xl_body": false,
+      "hour_utc": 23,
+      "candle_close": 81745.65,
+      "candle_open": 81757.97
+    },
+    "dry_run": false,
+    "payout": 12.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T00:00:31.112198+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x9afb6835b4610e245c6d7424ca2bdd61047900d0753931a5e83ce4a7fea2a4fc",
+      "takingAmount": "12.692306",
+      "makingAmount": "4.949999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf36e4704d2dca827996a6c7c6d435ff38fcad3e2447ac76b2ae646ad3fda78b5"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T00:05:17.608194+00:00",
+    "actual_up": false,
+    "price_open": 81727.07484353,
+    "price_close": 81715.11,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778544300",
+    "block_start": "2026-05-12T00:05:00+00:00",
+    "block_end": "2026-05-12T00:10:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.38,
+    "edge_pp": 16.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.009541790964808297,
+      "body_pct": -0.009541790964808297,
+      "is_xl_body": false,
+      "hour_utc": 0,
+      "candle_close": 81737.86,
+      "candle_open": 81745.66
+    },
+    "dry_run": false,
+    "payout": 13.16,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T00:05:30.755596+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x53c2aefd791caec8d87ae865a259338713e29d1dbfd6a94e774a82e62647826b",
+      "takingAmount": "12.447367",
+      "makingAmount": "4.729999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x0e0bc810d13718b940a14ac1fc0aad867e6b589c934373cb3eaa3e039f593017"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T00:10:16.992029+00:00",
+    "actual_up": false,
+    "price_open": 81715.11,
+    "price_close": 81671.29000000001,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778544600",
+    "block_start": "2026-05-12T00:10:00+00:00",
+    "block_end": "2026-05-12T00:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.48,
+    "edge_pp": 6.9,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.05914028089308493,
+      "body_pct": -0.05914028089308493,
+      "is_xl_body": false,
+      "hour_utc": 0,
+      "candle_close": 81689.52,
+      "candle_open": 81737.86
+    },
+    "dry_run": false,
+    "payout": 10.42,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T00:10:30.817497+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xd36f8f2c4d715709bb30c245384374245967c6a256e2a3ae70a2cbf546bb0890",
+      "takingAmount": "9.9375",
+      "makingAmount": "4.77",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf498d9456836edeb0d6a4ae08c00a6616c2f51afc50d557ab67d7f7d64b8650d"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T00:15:17.028561+00:00",
+    "actual_up": false,
+    "price_open": 81671.29000000001,
+    "price_close": 81596.95,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778548500",
+    "block_start": "2026-05-12T01:15:00+00:00",
+    "block_end": "2026-05-12T01:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.45,
+    "edge_pp": 9.9,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.04534960827172067,
+      "body_pct": -0.04534960827172067,
+      "is_xl_body": false,
+      "hour_utc": 1,
+      "candle_close": 81397.07,
+      "candle_open": 81434.0
+    },
+    "dry_run": false,
+    "payout": 11.11,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T01:15:32.081953+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x8ac59ea4e5a25f93ce7376b072996bee700ee271490724fe176ca868bdc7f071",
+      "takingAmount": "11.11111",
+      "makingAmount": "4.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xbc83cddb5d49218133a58ac3b7e16de450bcb667278b75663d2f166b4bde2299"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T01:20:19.323129+00:00",
+    "actual_up": false,
+    "price_open": 81378.0,
+    "price_close": 81358.48814865001,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778549700",
+    "block_start": "2026-05-12T01:35:00+00:00",
+    "block_end": "2026-05-12T01:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.2676217828425694,
+      "body_pct": -0.2676217828425694,
+      "is_xl_body": true,
+      "hour_utc": 1,
+      "candle_close": 81154.53,
+      "candle_open": 81372.3
+    },
+    "dry_run": false,
+    "payout": 10.64,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T01:35:30.770751+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x01536505c0dc6d27961c9e265782e77b43df7c3c2080b7a01b8ed8d99fcff40c",
+      "takingAmount": "10.510637",
+      "makingAmount": "4.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x345f5193ba748a52487313ae105fda24d4e5a3f7ba1f5041e384818914569dcc"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T01:40:17.707743+00:00",
+    "actual_up": false,
+    "price_open": 81132.70658575,
+    "price_close": 80849.40433175,
+    "pnl": -5.0
+  },
+  {
+    "trade_id": "pb_1778550000",
+    "block_start": "2026-05-12T01:40:00+00:00",
+    "block_end": "2026-05-12T01:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.41,
+    "edge_pp": 14.8,
+    "bet_size": 5.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.3566898413816241,
+      "body_pct": -0.3566898413816241,
+      "is_xl_body": true,
+      "hour_utc": 1,
+      "candle_close": 80865.07,
+      "candle_open": 81154.54
+    },
+    "dry_run": false,
+    "payout": 12.2,
+    "result": "WIN",
+    "placed_at": "2026-05-12T01:40:30.689801+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xed2bc7dc8c4f5a0b3cb1c7ebf41311fc5986fbe5b26c4894d10ea99cd8d41782",
+      "takingAmount": "11.718094",
+      "makingAmount": "4.829999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xc0af9a526c00405f150522792a595c3ae0964eb0fdf69e8c53464e81afec810e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T01:45:16.954730+00:00",
+    "actual_up": true,
+    "price_open": 80849.40433175,
+    "price_close": 81047.95739949,
+    "pnl": 7.2
+  },
+  {
+    "trade_id": "pb_1778551500",
+    "block_start": "2026-05-12T02:05:00+00:00",
+    "block_end": "2026-05-12T02:10:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.51,
+    "edge_pp": 3.9,
+    "bet_size": 5.0,
+    "setups": [
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.10381878240642692,
+      "body_pct": 0.10381878240642692,
+      "is_xl_body": false,
+      "hour_utc": 2,
+      "candle_close": 81283.48,
+      "candle_open": 81199.18
+    },
+    "dry_run": false,
+    "payout": 9.8,
+    "result": "WIN",
+    "placed_at": "2026-05-12T02:05:30.704735+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4e93c98bdbbe500dae7e9fe6aaa1c2bbe34f83099c76906c50ee7ed7b21a45f5",
+      "takingAmount": "9.607842",
+      "makingAmount": "4.899999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x2a7aae01bb84793327899dfeae05360d359a55120074402e6fd05923cc6651b7"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T02:10:17.245837+00:00",
+    "actual_up": false,
+    "price_open": 81262.97383051,
+    "price_close": 81258.5450301,
+    "pnl": 4.8
+  },
+  {
+    "trade_id": "pb_1778552400",
+    "block_start": "2026-05-12T02:20:00+00:00",
+    "block_end": "2026-05-12T02:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.39,
+    "edge_pp": 14.1,
+    "bet_size": 5.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.23719800388681622,
+      "body_pct": -0.23719800388681622,
+      "is_xl_body": true,
+      "hour_utc": 2,
+      "candle_close": 81123.15,
+      "candle_open": 81316.03
+    },
+    "dry_run": false,
+    "payout": 12.82,
+    "result": "WIN",
+    "placed_at": "2026-05-12T02:20:30.803186+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xaf264cf4eddc0716e27327007e792a9f9dcf08c21c1d719a0d7b167d69086e06",
+      "takingAmount": "12.692306",
+      "makingAmount": "4.949999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x55ceedae05288a84c496d21be4457e04b026bbf60996c16ef94003083d934812"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T02:25:17.270621+00:00",
+    "actual_up": true,
+    "price_open": 81109.49999999,
+    "price_close": 81190.96484926,
+    "pnl": 7.82
+  },
+  {
+    "trade_id": "pb_1778558400",
+    "block_start": "2026-05-12T04:00:00+00:00",
+    "block_end": "2026-05-12T04:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.4,
+    "edge_pp": 14.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.02623332712959433,
+      "body_pct": -0.02623332712959433,
+      "is_xl_body": false,
+      "hour_utc": 3,
+      "candle_close": 81058.8,
+      "candle_open": 81080.07
+    },
+    "dry_run": false,
+    "payout": 7.5,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T04:00:31.876343+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x935052b0c9905855ffa1fec4661f824e733844d7e23d06fec172e854fa6a1f7d",
+      "takingAmount": "7.425",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x6f1d7286758ef28af163a86b4087b9d56bf59dd77b1885468363593b2f5b4392"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T04:05:18.300196+00:00",
+    "actual_up": false,
+    "price_open": 81037.39105144,
+    "price_close": 81005.75503007,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778558700",
+    "block_start": "2026-05-12T04:05:00+00:00",
+    "block_end": "2026-05-12T04:10:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.030619751417449527,
+      "body_pct": -0.030619751417449527,
+      "is_xl_body": false,
+      "hour_utc": 4,
+      "candle_close": 81033.97,
+      "candle_open": 81058.79
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "WIN",
+    "placed_at": "2026-05-12T04:05:30.773411+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xc0e61df84b6204cb79a9946506a7f955192249ee89f8c20eaedfb00e44f4dff0",
+      "takingAmount": "6.361701",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x145ba931990fcb76869ac012a461127507ef744056f61abea0c39103977b21a6"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T04:10:17.241396+00:00",
+    "actual_up": true,
+    "price_open": 81005.75503007,
+    "price_close": 81024.0827769,
+    "pnl": 3.38
+  },
+  {
+    "trade_id": "pb_1778566500",
+    "block_start": "2026-05-12T06:15:00+00:00",
+    "block_end": "2026-05-12T06:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.38,
+    "edge_pp": 15.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.0006399580187589842,
+      "body_pct": 0.0006399580187589842,
+      "is_xl_body": false,
+      "hour_utc": 6,
+      "candle_close": 81255.85,
+      "candle_open": 81255.33
+    },
+    "dry_run": false,
+    "payout": 7.89,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T06:15:30.759482+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xd9ad6e8ea2508035df5044722a4225fe88123ac3556007b584616bb3dd745374",
+      "takingAmount": "6.789472",
+      "makingAmount": "2.579999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x8be06f8cbe97b46c16988d7d123b92a15cc5c77f2d5bc73f87350d54964bd89b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T06:20:17.121981+00:00",
+    "actual_up": true,
+    "price_open": 81235.77140251,
+    "price_close": 81265.30313149,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778566800",
+    "block_start": "2026-05-12T06:20:00+00:00",
+    "block_end": "2026-05-12T06:25:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.4,
+    "edge_pp": 14.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.03758498618867884,
+      "body_pct": 0.03758498618867884,
+      "is_xl_body": false,
+      "hour_utc": 6,
+      "candle_close": 81286.39,
+      "candle_open": 81255.85
+    },
+    "dry_run": false,
+    "payout": 7.5,
+    "result": "WIN",
+    "placed_at": "2026-05-12T06:20:31.178444+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x042a6dd5ef0fff6b8695603cc23b183f38c9a931863879c13268819aabfeff10",
+      "takingAmount": "7.615383",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xdc58ad4d2631a503518018829acd645dab5946312622c78e170bdb1a25ee1e75"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T06:25:17.550925+00:00",
+    "actual_up": false,
+    "price_open": 81265.30313149,
+    "price_close": 81255.5,
+    "pnl": 4.5
+  },
+  {
+    "trade_id": "pb_1778575500",
+    "block_start": "2026-05-12T08:45:00+00:00",
+    "block_end": "2026-05-12T08:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.49,
+    "edge_pp": 4.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.01151420719742589,
+      "body_pct": 0.01151420719742589,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 80952.8,
+      "candle_open": 80943.48
+    },
+    "dry_run": false,
+    "payout": 6.12,
+    "result": "WIN",
+    "placed_at": "2026-05-12T08:45:31.256031+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4d108fe3456e2dcaa7fc4f791a22106f603781f6564e11214c3edf766a80bc2d",
+      "takingAmount": "6.061223",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x3bef539354ff233657b7136f83ec59387090dba5932aa2aec8f9ad137a78757b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T08:50:17.698308+00:00",
+    "actual_up": false,
+    "price_open": 80931.09162425,
+    "price_close": 80900.68387566,
+    "pnl": 3.12
+  },
+  {
+    "trade_id": "pb_1778576400",
+    "block_start": "2026-05-12T09:00:00+00:00",
+    "block_end": "2026-05-12T09:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.52,
+    "edge_pp": 2.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.019478336750390124,
+      "body_pct": -0.019478336750390124,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 80843.31,
+      "candle_open": 80859.06
+    },
+    "dry_run": false,
+    "payout": 5.77,
+    "result": "WIN",
+    "placed_at": "2026-05-12T09:00:30.789908+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x90812bf2a1c6bf3aa3be74c1f7af775b47776cdde29c554b5078cb4c82fe4e9e",
+      "takingAmount": "5.480768",
+      "makingAmount": "2.849999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x3561c35bb3b940e74799a21efb8f33bbedf6bf50ea6f920eb9ea15647dcfa4b2"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T09:05:17.248937+00:00",
+    "actual_up": true,
+    "price_open": 80816.94,
+    "price_close": 80854.79000000001,
+    "pnl": 2.77
+  },
+  {
+    "trade_id": "pb_1778577900",
+    "block_start": "2026-05-12T09:25:00+00:00",
+    "block_end": "2026-05-12T09:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.44,
+    "edge_pp": 12.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.014091090604603944,
+      "body_pct": -0.014091090604603944,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 80748.87,
+      "candle_open": 80760.25
+    },
+    "dry_run": false,
+    "payout": 6.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T09:25:31.172668+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4408444e2af8c96ac86e2cfcf9e6bec1234988e008d2f7751c9057e970206f8b",
+      "takingAmount": "6.533332",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x72d38f3e26b9287f211fe9fb4e686cae69e0ca8bc3d153fff020bdad9a54ada5"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T09:30:18.739652+00:00",
+    "actual_up": false,
+    "price_open": 80722.23393395,
+    "price_close": 80713.23,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778579400",
+    "block_start": "2026-05-12T09:50:00+00:00",
+    "block_end": "2026-05-12T09:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.49,
+    "edge_pp": 5.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.02814945854924121,
+      "body_pct": -0.02814945854924121,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 80902.4,
+      "candle_open": 80925.18
+    },
+    "dry_run": false,
+    "payout": 6.12,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T09:50:30.694760+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x1afe0d07a50a2c425e11b30ef5a679dea1d0d18f27f46cf8ca486dccc2e0d76d",
+      "takingAmount": "6.75",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x9d2b299f854b29024625c7d5faada2c08b6d22fbfc0d02185634f17677ddfe37"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T09:55:18.934374+00:00",
+    "actual_up": false,
+    "price_open": 80876.838246,
+    "price_close": 80794.96869196,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778579700",
+    "block_start": "2026-05-12T09:55:00+00:00",
+    "block_end": "2026-05-12T10:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.41,
+    "edge_pp": 15.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.09923067795269218,
+      "body_pct": -0.09923067795269218,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 80822.12,
+      "candle_open": 80902.4
+    },
+    "dry_run": false,
+    "payout": 7.32,
+    "result": "WIN",
+    "placed_at": "2026-05-12T09:55:30.749863+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x2f1f22d38e7ab40a09c60ec3b3ac42c60a00fd0d39762013321cc07bdcd162ac",
+      "takingAmount": "7.292681",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x90a43e7ee2dd815f21dbaf278a9c95876757d2de9ce4e066499ab4c03a51057f"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T10:00:18.988232+00:00",
+    "actual_up": true,
+    "price_open": 80794.96869196,
+    "price_close": 80801.74195999,
+    "pnl": 4.32
+  },
+  {
+    "trade_id": "pb_1778582100",
+    "block_start": "2026-05-12T10:35:00+00:00",
+    "block_end": "2026-05-12T10:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.41,
+    "edge_pp": 13.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.09043142603545531,
+      "body_pct": -0.09043142603545531,
+      "is_xl_body": false,
+      "hour_utc": 10,
+      "candle_close": 80651.15,
+      "candle_open": 80724.15
+    },
+    "dry_run": false,
+    "payout": 7.32,
+    "result": "WIN",
+    "placed_at": "2026-05-12T10:35:31.004074+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xdfaa80f60d3ed8534a80c418fc7d229a8396a1d9e69d62ed216a860325573be8",
+      "takingAmount": "6.5",
+      "makingAmount": "2.99",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x10a09518a89b0483fb966055a9c6c3160217b0619a3d5d4d174549bd5460048b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T10:40:18.821045+00:00",
+    "actual_up": true,
+    "price_open": 80622.50000001,
+    "price_close": 80672.09,
+    "pnl": 4.32
+  },
+  {
+    "trade_id": "pb_1778584500",
+    "block_start": "2026-05-12T11:15:00+00:00",
+    "block_end": "2026-05-12T11:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.32,
+    "edge_pp": 22.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.03978120954971372,
+      "body_pct": -0.03978120954971372,
+      "is_xl_body": false,
+      "hour_utc": 11,
+      "candle_close": 80583.88,
+      "candle_open": 80615.95
+    },
+    "dry_run": false,
+    "payout": 9.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T11:15:30.807567+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xd1fa3b3e46384c425218d9daa1764a37faf27fcd794bd61d1f218e459fba70ba",
+      "takingAmount": "8.969695",
+      "makingAmount": "2.959999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x6d21c34be162a63d09cdcca8d34f7cc6390459496fc31677bc2f15b66f95045d"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T11:20:17.213217+00:00",
+    "actual_up": false,
+    "price_open": 80560.96,
+    "price_close": 80511.49,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778584800",
+    "block_start": "2026-05-12T11:20:00+00:00",
+    "block_end": "2026-05-12T11:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.47,
+    "edge_pp": 9.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.060136104160785346,
+      "body_pct": -0.060136104160785346,
+      "is_xl_body": false,
+      "hour_utc": 11,
+      "candle_close": 80535.41,
+      "candle_open": 80583.87
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "WIN",
+    "placed_at": "2026-05-12T11:20:30.840244+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xdd3003ecc11de56dd8e9260737c0c2e88f918cecf914b8ad261b80953deaebed",
+      "takingAmount": "6.361701",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xfc1668be2640f3451cf351683d2e5111d99c27a1af1c9a1222cab5d6aea73ca1"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T11:25:17.982025+00:00",
+    "actual_up": true,
+    "price_open": 80511.49,
+    "price_close": 80562.28151864,
+    "pnl": 3.38
+  },
+  {
+    "trade_id": "pb_1778586000",
+    "block_start": "2026-05-12T11:40:00+00:00",
+    "block_end": "2026-05-12T11:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.432,
+    "ask": 0.46,
+    "edge_pp": 10.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_Europe_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.019934563061157637,
+      "body_pct": 0.019934563061157637,
+      "is_xl_body": false,
+      "hour_utc": 11,
+      "candle_close": 80680.0,
+      "candle_open": 80663.92
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T11:40:30.748917+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x42b9b7d2b3ec1967d625388a87b9c31ccb578741d844966a013e45379576ed15",
+      "takingAmount": "5.543477",
+      "makingAmount": "2.549999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xda599679c4e47f6630e95f3db7ebe6ef287a6e1a5ba227d69d30a2ed9301f6c8"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T11:45:17.366844+00:00",
+    "actual_up": true,
+    "price_open": 80659.26460624,
+    "price_close": 80710.0,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778586300",
+    "block_start": "2026-05-12T11:45:00+00:00",
+    "block_end": "2026-05-12T11:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.432,
+    "ask": 0.54,
+    "edge_pp": 2.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_Europe_DOWN",
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.06539415783268536,
+      "body_pct": 0.06539415783268536,
+      "is_xl_body": false,
+      "hour_utc": 11,
+      "candle_close": 80732.75,
+      "candle_open": 80679.99
+    },
+    "dry_run": false,
+    "payout": 5.56,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T11:45:30.693396+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x7c6a20f02475ba3f678dbdfa0cb559ad3f2b463fca51d0b9f5ed652cc11ff2c2",
+      "takingAmount": "5.471697",
+      "makingAmount": "2.899999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x24eb79f3bffeebd7ce3119b11fd2f4101123a7d47fde7a21289ec1c5854efeee"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T11:50:17.359857+00:00",
+    "actual_up": true,
+    "price_open": 80710.0,
+    "price_close": 80721.75425517,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778589600",
+    "block_start": "2026-05-12T12:40:00+00:00",
+    "block_end": "2026-05-12T12:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.48,
+    "edge_pp": 5.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.2616959053467584,
+      "body_pct": 0.2616959053467584,
+      "is_xl_body": true,
+      "hour_utc": 12,
+      "candle_close": 80984.52,
+      "candle_open": 80773.14
+    },
+    "dry_run": false,
+    "payout": 6.25,
+    "result": "WIN",
+    "placed_at": "2026-05-12T12:40:30.790422+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x624e3dba831bfab7359d1069674a1aee12f6f2615205dd02763143f3e6d0ce6b",
+      "takingAmount": "5.520832",
+      "makingAmount": "2.649999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x5735e22881d5e23a120786ed28e82ac157f22ccb983c63f1ce1037bb971f264b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T12:45:18.236872+00:00",
+    "actual_up": false,
+    "price_open": 80958.88488466,
+    "price_close": 80835.05,
+    "pnl": 3.25
+  },
+  {
+    "trade_id": "pb_1778592000",
+    "block_start": "2026-05-12T13:20:00+00:00",
+    "block_end": "2026-05-12T13:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.51,
+    "edge_pp": 3.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.11141089108911396,
+      "body_pct": -0.11141089108911396,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80709.98,
+      "candle_open": 80800.0
+    },
+    "dry_run": false,
+    "payout": 5.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T13:20:30.871804+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-12T13:25:17.088363+00:00",
+    "actual_up": false,
+    "price_open": 80686.59706857,
+    "price_close": 80680.8025,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778592300",
+    "block_start": "2026-05-12T13:25:00+00:00",
+    "block_end": "2026-05-12T13:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.29,
+    "edge_pp": 25.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.004943627162796912,
+      "body_pct": -0.004943627162796912,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80705.98,
+      "candle_open": 80709.97
+    },
+    "dry_run": false,
+    "payout": 10.34,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T13:25:30.750077+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x6f48742f15252a291c42ea7e1a72445ec3c4a903715076b8dc970dd280d649ba",
+      "takingAmount": "9.965516",
+      "makingAmount": "2.889999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xb6acbc39184d088faea91e02152f086cd19bdab7e3f60606aa740b2e66773630"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T13:30:17.195520+00:00",
+    "actual_up": false,
+    "price_open": 80680.8025,
+    "price_close": 80633.95468371,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778592600",
+    "block_start": "2026-05-12T13:30:00+00:00",
+    "block_end": "2026-05-12T13:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.37,
+    "edge_pp": 17.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.05489061094241592,
+      "body_pct": -0.05489061094241592,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80661.67,
+      "candle_open": 80705.97
+    },
+    "dry_run": false,
+    "payout": 8.11,
+    "result": "WIN",
+    "placed_at": "2026-05-12T13:30:30.751168+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xf60a06821e4de81d41387150800a016b625401ef16102017143d063b9fcb7229",
+      "takingAmount": "7.736841",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe806db0473c958b85c5135d35659a61bb6ad2121711f22aba002d7ed5703d6a9"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T13:35:17.084133+00:00",
+    "actual_up": true,
+    "price_open": 80633.95468371,
+    "price_close": 80634.36906441,
+    "pnl": 5.11
+  },
+  {
+    "trade_id": "pb_1778592900",
+    "block_start": "2026-05-12T13:35:00+00:00",
+    "block_end": "2026-05-12T13:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.45,
+    "edge_pp": 9.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 6,
+      "body_abs": 0.006583053212638659,
+      "body_pct": -0.006583053212638659,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80656.35,
+      "candle_open": 80661.66
+    },
+    "dry_run": false,
+    "payout": 6.67,
+    "result": "WIN",
+    "placed_at": "2026-05-12T13:35:30.646626+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x74acf0260abcbc95225536efedef3ccfa9bcb3b0e89047477f35f54f94dbd44e",
+      "takingAmount": "6.521738",
+      "makingAmount": "2.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x519e328a68aa9b6d67b00a081832c0e97d0714efb927fe64fd30d9cc34945a4c"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T13:40:19.073017+00:00",
+    "actual_up": true,
+    "price_open": 80634.36906441,
+    "price_close": 80744.41757384001,
+    "pnl": 3.67
+  },
+  {
+    "trade_id": "pb_1778593200",
+    "block_start": "2026-05-12T13:40:00+00:00",
+    "block_end": "2026-05-12T13:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.47,
+    "edge_pp": 6.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.14339850489141764,
+      "body_pct": 0.14339850489141764,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 80772.01,
+      "candle_open": 80656.35
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T13:40:30.761563+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xd6bd09a72e5f84cf5fc46291e179a36be73f6e94996f7541fd433d50b7fefa41",
+      "takingAmount": "6.361701",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4a09bfd252330708d15285346b7e56f95def65a4ec9e2fcd5dd5ecf125887d83"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T13:45:17.236219+00:00",
+    "actual_up": true,
+    "price_open": 80744.41757384001,
+    "price_close": 80745.20286111,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778594100",
+    "block_start": "2026-05-12T13:55:00+00:00",
+    "block_end": "2026-05-12T14:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.51,
+    "edge_pp": 3.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.10002348248176486,
+      "body_pct": -0.10002348248176486,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80660.28,
+      "candle_open": 80741.04
+    },
+    "dry_run": false,
+    "payout": 5.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T13:55:30.698436+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-12T14:00:16.755116+00:00",
+    "actual_up": false,
+    "price_open": 80645.08575822,
+    "price_close": 80442.16213904,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778594400",
+    "block_start": "2026-05-12T14:00:00+00:00",
+    "block_end": "2026-05-12T14:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.37,
+    "edge_pp": 18.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.239733856614427,
+      "body_pct": -0.239733856614427,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 80466.91,
+      "candle_open": 80660.28
+    },
+    "dry_run": false,
+    "payout": 8.11,
+    "result": "WIN",
+    "placed_at": "2026-05-12T14:00:31.131435+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x513f9c7e9ff3b6c8eb29b670b4d1f4ae4a83e8dfd583bb6048dfb12f4e87f8a5",
+      "takingAmount": "7.736841",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4f2d204859e30d9bcde23efa2c47e7133ce71e6d11b85264df63fcee873d9751"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T14:05:17.839351+00:00",
+    "actual_up": true,
+    "price_open": 80442.16213904,
+    "price_close": 80525.35088475,
+    "pnl": 5.11
+  },
+  {
+    "trade_id": "pb_1778595900",
+    "block_start": "2026-05-12T14:25:00+00:00",
+    "block_end": "2026-05-12T14:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.39,
+    "edge_pp": 15.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+G_general_DOWN",
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.005941084492993309,
+      "body_pct": 0.005941084492993309,
+      "is_xl_body": false,
+      "hour_utc": 14,
+      "candle_close": 80798.13,
+      "candle_open": 80793.33
+    },
+    "dry_run": false,
+    "payout": 7.69,
+    "result": "WIN",
+    "placed_at": "2026-05-12T14:25:30.714655+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x9bbd0195e37a2d4467383e070a6b4b2f22d1a8d8ea3c0d814aaad42268ed29ab",
+      "takingAmount": "6.856362",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x5c85353c196895ce8b4a2dfa0e700727804ae9297dd18197e6015ade8f22d572"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T14:30:19.241503+00:00",
+    "actual_up": false,
+    "price_open": 80776.05961195,
+    "price_close": 80628.5,
+    "pnl": 4.69
+  },
+  {
+    "trade_id": "pb_1778596500",
+    "block_start": "2026-05-12T14:35:00+00:00",
+    "block_end": "2026-05-12T14:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.52,
+    "edge_pp": 2.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.17186905019193832,
+      "body_pct": -0.17186905019193832,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 80510.0,
+      "candle_open": 80648.61
+    },
+    "dry_run": false,
+    "payout": 5.77,
+    "result": "WIN",
+    "placed_at": "2026-05-12T14:35:30.823205+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x76c5f09c56db16d93218a7d1dc72a3f1961b238cd3fb7aab8e6d3b2a187211e0",
+      "takingAmount": "6.063828",
+      "makingAmount": "2.849999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf0472474b81ae06a9570012e3902bd6b9456e3287c0932bf25fe1a8b72db3335"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T14:40:19.009575+00:00",
+    "actual_up": true,
+    "price_open": 80495.61376448,
+    "price_close": 80774.85215292001,
+    "pnl": 2.77
+  },
+  {
+    "trade_id": "pb_1778597400",
+    "block_start": "2026-05-12T14:50:00+00:00",
+    "block_end": "2026-05-12T14:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.36,
+    "edge_pp": 18.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.2192335378671263,
+      "body_pct": -0.2192335378671263,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 80617.99,
+      "candle_open": 80795.12
+    },
+    "dry_run": false,
+    "payout": 8.33,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T14:50:31.125311+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-12T14:55:22.167933+00:00",
+    "actual_up": false,
+    "price_open": 80597.35251502,
+    "price_close": 80552.90000000001,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778597700",
+    "block_start": "2026-05-12T14:55:00+00:00",
+    "block_end": "2026-05-12T15:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.5,
+    "edge_pp": 4.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.056153712570398764,
+      "body_pct": -0.056153712570398764,
+      "is_xl_body": false,
+      "hour_utc": 14,
+      "candle_close": 80572.73,
+      "candle_open": 80618.0
+    },
+    "dry_run": false,
+    "payout": 6.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T14:55:30.742734+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xe47f359714bfc9e74808a4e496d0666be4a513ea1c00132606eb02669b14d64f",
+      "takingAmount": "5.94",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x3e7fb7cc3b2203770d1af525eefa8011727daa8bb231b38923718bfa2ffd1384"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T15:00:18.641069+00:00",
+    "actual_up": false,
+    "price_open": 80552.90000000001,
+    "price_close": 80520.03775708,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778598000",
+    "block_start": "2026-05-12T15:00:00+00:00",
+    "block_end": "2026-05-12T15:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.37,
+    "edge_pp": 17.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.04063409038839344,
+      "body_pct": -0.04063409038839344,
+      "is_xl_body": false,
+      "hour_utc": 14,
+      "candle_close": 80540.0,
+      "candle_open": 80572.74
+    },
+    "dry_run": false,
+    "payout": 8.11,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T15:00:30.842352+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xa392b4112b4e5b5521df158a0b11752ea7821e25f2fa544470a32f17d8adc37b",
+      "takingAmount": "7.35",
+      "makingAmount": "2.94",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf5703f77e1289abf3617c00b9b26ab6b3e5bb9bd454a730d637c81913fbb7a1d"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T15:05:18.815011+00:00",
+    "actual_up": false,
+    "price_open": 80520.03775708,
+    "price_close": 80470.34503002,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778598300",
+    "block_start": "2026-05-12T15:05:00+00:00",
+    "block_end": "2026-05-12T15:10:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.46,
+    "edge_pp": 8.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.05893965731313777,
+      "body_pct": -0.05893965731313777,
+      "is_xl_body": false,
+      "hour_utc": 15,
+      "candle_close": 80492.53,
+      "candle_open": 80540.0
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "WIN",
+    "placed_at": "2026-05-12T15:05:30.777112+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x772414d40610bf79ea56177c4ceae165fa58bba0117669b22cc7c94670b2b706",
+      "takingAmount": "5.543477",
+      "makingAmount": "2.549999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x67117bb2f516601e25aa7f2de045ddd87aa013c0580ab557fe2aef02cf1124ef"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T15:10:18.164201+00:00",
+    "actual_up": true,
+    "price_open": 80470.34503002,
+    "price_close": 80628.0,
+    "pnl": 3.52
+  },
+  {
+    "trade_id": "pb_1778598600",
+    "block_start": "2026-05-12T15:10:00+00:00",
+    "block_end": "2026-05-12T15:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.47,
+    "edge_pp": 6.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.19929799696940606,
+      "body_pct": 0.19929799696940606,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 80652.95,
+      "candle_open": 80492.53
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "WIN",
+    "placed_at": "2026-05-12T15:10:30.741659+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x3b1211f0ee185e5c9bbf64d3b0d6314f9bb66cbac1f38606db6641efc6d7ae0e",
+      "takingAmount": "6.5",
+      "makingAmount": "2.99",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe37b249a85acfc7583bc510b8587c62f75e6ab32ddc06157140789e180e8b2bb"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T15:15:17.302254+00:00",
+    "actual_up": false,
+    "price_open": 80628.0,
+    "price_close": 80590.50316162,
+    "pnl": 3.38
+  },
+  {
+    "trade_id": "pb_1778603700",
+    "block_start": "2026-05-12T16:35:00+00:00",
+    "block_end": "2026-05-12T16:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.52,
+    "edge_pp": 2.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.01779798009739144,
+      "body_pct": -0.01779798009739144,
+      "is_xl_body": false,
+      "hour_utc": 16,
+      "candle_close": 80275.72,
+      "candle_open": 80290.01
+    },
+    "dry_run": false,
+    "payout": 5.77,
+    "result": "WIN",
+    "placed_at": "2026-05-12T16:35:30.959689+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x2005c9aca52dd4c38a9f5ae69d3f1d6e84fa2b277c852683b9718c99602f5d4a",
+      "takingAmount": "5.480768",
+      "makingAmount": "2.849999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x0c0ff8a2f06459196b369008efab407804f0088f59df00733f4cf0363f04d28b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T16:40:19.340620+00:00",
+    "actual_up": true,
+    "price_open": 80245.73751504,
+    "price_close": 80256.50000001,
+    "pnl": 2.77
+  },
+  {
+    "trade_id": "pb_1778604600",
+    "block_start": "2026-05-12T16:50:00+00:00",
+    "block_end": "2026-05-12T16:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.46,
+    "edge_pp": 8.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.3299903564860413,
+      "body_pct": -0.3299903564860413,
+      "is_xl_body": true,
+      "hour_utc": 16,
+      "candle_close": 79986.01,
+      "candle_open": 80250.83
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T16:50:30.816615+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x614673ace7030899a653508520507af9bb26cf9f9ddf094a5ffe6e52fcf52575",
+      "takingAmount": "6.071427",
+      "makingAmount": "2.549999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe6cebb51ac79fa472dd4db3d71911ce81a43ed4147aefc5014a070cb2c40676e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T16:55:18.103730+00:00",
+    "actual_up": false,
+    "price_open": 79959.9104696,
+    "price_close": 79940.7342188,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778604900",
+    "block_start": "2026-05-12T16:55:00+00:00",
+    "block_end": "2026-05-12T17:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.5,
+    "edge_pp": 4.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.020016002800483535,
+      "body_pct": -0.020016002800483535,
+      "is_xl_body": false,
+      "hour_utc": 16,
+      "candle_close": 79969.99,
+      "candle_open": 79986.0
+    },
+    "dry_run": false,
+    "payout": 6.0,
+    "result": "WIN",
+    "placed_at": "2026-05-12T16:55:30.756101+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xeaab84d18afbf3a4049ded1b3ce515c6dc7b4e7eb1f863927dfc066ce6e76365",
+      "takingAmount": "5.94",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x40ad78cece725c8d24dd10c1fd3d1b54b6be5e61881efafd761f0c183e0210f9"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T17:00:19.293976+00:00",
+    "actual_up": true,
+    "price_open": 79940.7342188,
+    "price_close": 79975.64152437,
+    "pnl": 3.0
+  },
+  {
+    "trade_id": "pb_1778605500",
+    "block_start": "2026-05-12T17:05:00+00:00",
+    "block_end": "2026-05-12T17:10:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.5,
+    "edge_pp": 5.0,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.13453748318282044,
+      "body_pct": 0.13453748318282044,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 80107.64,
+      "candle_open": 80000.01
+    },
+    "dry_run": false,
+    "payout": 6.0,
+    "result": "WIN",
+    "placed_at": "2026-05-12T17:05:30.857627+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xbf3f04365507b16e7168d0c9f3e064ec5d481ef517abfdec0b3000eb28d28983",
+      "takingAmount": "5.653845",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x5b4d75d2527d17ddd1917b4a354ad2face2503266f895164ec917b58bb5ad9d7"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T17:10:18.204601+00:00",
+    "actual_up": false,
+    "price_open": 80082.58,
+    "price_close": 80045.24515596,
+    "pnl": 3.0
+  },
+  {
+    "trade_id": "pb_1778606100",
+    "block_start": "2026-05-12T17:15:00+00:00",
+    "block_end": "2026-05-12T17:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.34,
+    "edge_pp": 19.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.17015910156993472,
+      "body_pct": 0.17015910156993472,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 80208.37,
+      "candle_open": 80072.12
+    },
+    "dry_run": false,
+    "payout": 8.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T17:15:30.702589+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x04f067fc603905dec196144d1a59ab9931074953ab87480facd495c2587bdc40",
+      "takingAmount": "8.02941",
+      "makingAmount": "2.729999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4260ba51e994416b65db01fe6157525d68be6675db9ef6c21becc8c6339804c6"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T17:20:18.482928+00:00",
+    "actual_up": true,
+    "price_open": 80181.5,
+    "price_close": 80305.33028593,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778606400",
+    "block_start": "2026-05-12T17:20:00+00:00",
+    "block_end": "2026-05-12T17:25:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.29,
+    "edge_pp": 26.0,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.17626589344728572,
+      "body_pct": 0.17626589344728572,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 80349.75,
+      "candle_open": 80208.37
+    },
+    "dry_run": false,
+    "payout": 10.34,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T17:20:30.658580+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-12T17:25:21.828240+00:00",
+    "actual_up": true,
+    "price_open": 80305.33028593,
+    "price_close": 80387.82637131,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778606700",
+    "block_start": "2026-05-12T17:25:00+00:00",
+    "block_end": "2026-05-12T17:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.48,
+    "edge_pp": 5.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.08550627556319895,
+      "body_pct": 0.08550627556319895,
+      "is_xl_body": false,
+      "hour_utc": 17,
+      "candle_close": 80413.68,
+      "candle_open": 80344.98
+    },
+    "dry_run": false,
+    "payout": 6.25,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T17:25:30.702674+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x8a1837d9d462339b2f20a4f6246ef3c2695c2a929a09c21635888f780aff9c5f",
+      "takingAmount": "5.520832",
+      "makingAmount": "2.649999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe4ba77f83465532ac0fabb6862271df5a8a9e8fef974fd10ddaa5bbc3dbc3975"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T17:30:20.234506+00:00",
+    "actual_up": true,
+    "price_open": 80387.82637131,
+    "price_close": 80406.06,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778607000",
+    "block_start": "2026-05-12T17:30:00+00:00",
+    "block_end": "2026-05-12T17:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.41,
+    "edge_pp": 13.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.015656540031510884,
+      "body_pct": 0.015656540031510884,
+      "is_xl_body": false,
+      "hour_utc": 17,
+      "candle_close": 80426.27,
+      "candle_open": 80413.68
+    },
+    "dry_run": false,
+    "payout": 7.32,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T17:30:30.828609+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x0be53d967532580c9fda6b58cd9423be570fb16a339f421132dfb0193ef930e2",
+      "takingAmount": "7.475",
+      "makingAmount": "2.99",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4f194341553749e7cea600d1fff298c37c72b167fbfb397eb713edb1cc6f15e8"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T17:35:17.734374+00:00",
+    "actual_up": true,
+    "price_open": 80406.06,
+    "price_close": 80468.61700785,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778611500",
+    "block_start": "2026-05-12T18:45:00+00:00",
+    "block_end": "2026-05-12T18:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.37,
+    "edge_pp": 16.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.1003267413018096,
+      "body_pct": 0.1003267413018096,
+      "is_xl_body": false,
+      "hour_utc": 18,
+      "candle_close": 80667.54,
+      "candle_open": 80586.69
+    },
+    "dry_run": false,
+    "payout": 8.11,
+    "result": "WIN",
+    "placed_at": "2026-05-12T18:45:30.734785+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x178d082068d1245d77cf56945280f00046baf09955a0de0b842a6fe40ce1e1ae",
+      "takingAmount": "7.945944",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x51ae36e73e773d865ab05c3f9a455f6913c157c7faf143fc33149887c86fe30c"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T18:50:19.609139+00:00",
+    "actual_up": false,
+    "price_open": 80640.40410011,
+    "price_close": 80617.97922011,
+    "pnl": 5.11
+  },
+  {
+    "trade_id": "pb_1778613300",
+    "block_start": "2026-05-12T19:15:00+00:00",
+    "block_end": "2026-05-12T19:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.36,
+    "edge_pp": 17.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.04117253334004603,
+      "body_pct": 0.04117253334004603,
+      "is_xl_body": false,
+      "hour_utc": 19,
+      "candle_close": 80815.27,
+      "candle_open": 80782.01
+    },
+    "dry_run": false,
+    "payout": 8.33,
+    "result": "WIN",
+    "placed_at": "2026-05-12T19:15:30.833234+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xc9b72d7809633ecd58389ebadfffdab0984383db7f533f190d2197ae182d8e87",
+      "takingAmount": "7.972221",
+      "makingAmount": "2.869999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xb878ae33c5bd00989e6b75f259eeadeb45068f0f681dbb08386ae8c07f918098"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T19:20:17.275329+00:00",
+    "actual_up": false,
+    "price_open": 80790.70403286,
+    "price_close": 80744.5,
+    "pnl": 5.33
+  },
+  {
+    "trade_id": "pb_1778621100",
+    "block_start": "2026-05-12T21:25:00+00:00",
+    "block_end": "2026-05-12T21:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.04,
+    "edge_pp": 50.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.043012213064475634,
+      "body_pct": -0.043012213064475634,
+      "is_xl_body": false,
+      "hour_utc": 21,
+      "candle_close": 80663.3,
+      "candle_open": 80698.01
+    },
+    "dry_run": false,
+    "payout": 75.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-12T21:28:09.495588+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x19c3825e2cf2ae42e75215ded4b8c1e9be25ac0afbfab0abc1414a40f2ef90e5",
+      "takingAmount": "74.25",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xddeaeed1bd5923410e6524f8836ea9d6cb9a9ee1f2e23c9b781609d4b62c6f65"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-12T21:36:18.311517+00:00",
+    "actual_up": false,
+    "price_open": 80648.08849173,
+    "price_close": 80635.4151258,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778634600",
+    "block_start": "2026-05-13T01:10:00+00:00",
+    "block_end": "2026-05-13T01:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.02,
+    "edge_pp": 51.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.12150126517373172,
+      "body_pct": 0.12150126517373172,
+      "is_xl_body": false,
+      "hour_utc": 1,
+      "candle_close": 80838.0,
+      "candle_open": 80739.9
+    },
+    "dry_run": false,
+    "payout": 150.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T01:13:33.477654+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xbf626ac92f9d644c9013a096882877c037b4210d8cbbaaa1b51ab3f95cc670c9",
+      "takingAmount": "147",
+      "makingAmount": "2.94",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x066a94f38fd9ef39b010c2017decc890425f6512588eca85f7c4f612e56782a5"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T01:29:57.309086+00:00",
+    "actual_up": true,
+    "price_open": 80822.82483642,
+    "price_close": 80939.9167935,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778635500",
+    "block_start": "2026-05-13T01:25:00+00:00",
+    "block_end": "2026-05-13T01:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.01,
+    "edge_pp": 52.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.1366658259187203,
+      "body_pct": 0.1366658259187203,
+      "is_xl_body": true,
+      "hour_utc": 1,
+      "candle_close": 81030.6,
+      "candle_open": 80920.01
+    },
+    "dry_run": false,
+    "payout": 300.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T01:29:58.371347+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xa832d07a561f093ecc5847531930cac93bfdec9e9e4d1d83e3c9dea4b1c07564",
+      "takingAmount": "300",
+      "makingAmount": "3",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x662a42533f62a4ad12fe00988ec1352c614b6820321f1b10a682a104ee9b6de9"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T01:30:19.279371+00:00",
+    "actual_up": true,
+    "price_open": 81016.66586580001,
+    "price_close": 81050.13517732,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778640000",
+    "block_start": "2026-05-13T02:40:00+00:00",
+    "block_end": "2026-05-13T02:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.35,
+    "edge_pp": 19.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.027742101334027096,
+      "body_pct": -0.027742101334027096,
+      "is_xl_body": false,
+      "hour_utc": 2,
+      "candle_close": 81045.63,
+      "candle_open": 81068.12
+    },
+    "dry_run": false,
+    "payout": 8.57,
+    "result": "WIN",
+    "placed_at": "2026-05-13T02:41:17.678452+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x7d8009e0ebe7f89f4b737e57604a11f628e41295b4f62e8b851328d1996aa97d",
+      "takingAmount": "9.090908",
+      "makingAmount": "2.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x9d0802bd72818847730e092985433aa15ae3587310e5dad6cc35d6f58337bcb3"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T03:15:31.407576+00:00",
+    "actual_up": true,
+    "price_open": 81032.87836883,
+    "price_close": 81044.20532357,
+    "pnl": 5.57
+  },
+  {
+    "trade_id": "pb_1778643600",
+    "block_start": "2026-05-13T03:40:00+00:00",
+    "block_end": "2026-05-13T03:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.21,
+    "edge_pp": 33.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.051442663378546444,
+      "body_pct": 0.051442663378546444,
+      "is_xl_body": false,
+      "hour_utc": 3,
+      "candle_close": 81141.72,
+      "candle_open": 81100.0
+    },
+    "dry_run": false,
+    "payout": 14.29,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T03:42:21.304814+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xd8eded0bc34e4f859444ad8c87643980a6f97ed2c9443fab5159342d41194902",
+      "takingAmount": "14.238094",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x42248835726336b15420885d514256d80843262cea5bb293a4bf4715e644326a"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T03:57:54.023372+00:00",
+    "actual_up": true,
+    "price_open": 81124.63,
+    "price_close": 81182.36,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778650800",
+    "block_start": "2026-05-13T05:40:00+00:00",
+    "block_end": "2026-05-13T05:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.06,
+    "edge_pp": 48.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.008325857535573307,
+      "body_pct": -0.008325857535573307,
+      "is_xl_body": false,
+      "hour_utc": 5,
+      "candle_close": 81065.98,
+      "candle_open": 81072.73
+    },
+    "dry_run": false,
+    "payout": 50.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T05:44:09.279780+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x781cc601924210404c5a70edf034418125b768f1fc1a5691115db729680951ff",
+      "takingAmount": "49.5",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x2e92aba9e408e84a0e927a095686623f33b88eba715f30a62489299efe5f74da"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T05:47:39.360916+00:00",
+    "actual_up": false,
+    "price_open": 81042.5,
+    "price_close": 81013.63751503,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778651100",
+    "block_start": "2026-05-13T05:45:00+00:00",
+    "block_end": "2026-05-13T05:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.25,
+    "edge_pp": 29.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.04863939825799601,
+      "body_pct": -0.04863939825799601,
+      "is_xl_body": false,
+      "hour_utc": 5,
+      "candle_close": 81026.54,
+      "candle_open": 81065.97
+    },
+    "dry_run": false,
+    "payout": 12.0,
+    "result": "WIN",
+    "placed_at": "2026-05-13T05:47:40.423012+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x238e5a707390ddb67e77ca072ec1db7b3b8eef8efc61e5a831d9f2496d8acbb9",
+      "takingAmount": "12",
+      "makingAmount": "3",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x0ba0ce74ee18dac6abb7fa082ee61b46fce3a11795f79f8105b782c824a1174d"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T06:39:02.707370+00:00",
+    "actual_up": true,
+    "price_open": 81013.63751503,
+    "price_close": 81045.49249307,
+    "pnl": 9.0
+  },
+  {
+    "trade_id": "pb_1778654700",
+    "block_start": "2026-05-13T06:45:00+00:00",
+    "block_end": "2026-05-13T06:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.34,
+    "edge_pp": 20.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.0019738662574913723,
+      "body_pct": -0.0019738662574913723,
+      "is_xl_body": false,
+      "hour_utc": 6,
+      "candle_close": 81057.59,
+      "candle_open": 81059.19
+    },
+    "dry_run": false,
+    "payout": 8.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T06:45:25.810630+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xebf2510e9111ecbc7bd3fad9e5145da5cfe02abf8870e1312ff7b2b5c4b8e1e7",
+      "takingAmount": "8.02941",
+      "makingAmount": "2.729999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x0f856fda35a03c33ff3e7ae04fc6a7f69054d72f11e1b65e927d0799e71d3875"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T06:54:54.234259+00:00",
+    "actual_up": false,
+    "price_open": 81038.07805466,
+    "price_close": 81022.66051131001,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778655000",
+    "block_start": "2026-05-13T06:50:00+00:00",
+    "block_end": "2026-05-13T06:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.004,
+    "edge_pp": 54.4,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.01653145825474771,
+      "body_pct": -0.01653145825474771,
+      "is_xl_body": false,
+      "hour_utc": 6,
+      "candle_close": 81044.18,
+      "candle_open": 81057.58
+    },
+    "dry_run": false,
+    "payout": 750.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T06:54:55.387848+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x48c5c6e56f77de1679d9cf867a76813edb28342da34bc3afb6da9b38499bcf11",
+      "takingAmount": "3000",
+      "makingAmount": "3",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xbdf68bb8e78a495c9339f8960ca1368f90263b83ab69393b9b54da2f3be7c86c"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T06:55:16.297882+00:00",
+    "actual_up": false,
+    "price_open": 81022.66051131001,
+    "price_close": 80977.24,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778668200",
+    "block_start": "2026-05-13T10:30:00+00:00",
+    "block_end": "2026-05-13T10:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.01,
+    "edge_pp": 53.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.16773502969483678,
+      "body_pct": -0.16773502969483678,
+      "is_xl_body": true,
+      "hour_utc": 10,
+      "candle_close": 80974.02,
+      "candle_open": 81110.07
+    },
+    "dry_run": false,
+    "payout": 300.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T10:34:50.920926+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4fa9a77c43363a04062dcd187442c7aef9574db9d7c034c55d066534fdbb547a",
+      "takingAmount": "300",
+      "makingAmount": "3",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xd187697fc9587d6e3da383223dbdd28e21d0e1246d3b954155dc021b18b108a3"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T10:48:28.826405+00:00",
+    "actual_up": false,
+    "price_open": 80944.78,
+    "price_close": 80906.085,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778669100",
+    "block_start": "2026-05-13T10:45:00+00:00",
+    "block_end": "2026-05-13T10:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.573,
+    "ask": 0.51,
+    "edge_pp": 6.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+R_Europe_UP",
+      "S4+R_Europe_UP",
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.0789189902620449,
+      "body_pct": -0.0789189902620449,
+      "is_xl_body": false,
+      "hour_utc": 10,
+      "candle_close": 80854.56,
+      "candle_open": 80918.42
+    },
+    "dry_run": false,
+    "payout": 5.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T10:48:29.904144+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xee5c210c16402975a3aa3f53eeb5d58c15f72497ed91baff1c261fbae102a109",
+      "takingAmount": "5.377357",
+      "makingAmount": "2.849999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x81f75d554efcceeac317a9ca4f4f7a5370ec0b081c3cf9494f078fb59e6eb681"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T11:41:07.985900+00:00",
+    "actual_up": false,
+    "price_open": 80822.985,
+    "price_close": 80812.75,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778675100",
+    "block_start": "2026-05-13T12:25:00+00:00",
+    "block_end": "2026-05-13T12:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.42,
+    "edge_pp": 12.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.3126459047335206,
+      "body_pct": -0.3126459047335206,
+      "is_xl_body": true,
+      "hour_utc": 12,
+      "candle_close": 80280.22,
+      "candle_open": 80532.0
+    },
+    "dry_run": false,
+    "payout": 7.14,
+    "result": "WIN",
+    "placed_at": "2026-05-13T12:25:30.843238+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x2759987c0681a95addd73ca27e7be3d8a9959484c28d2d2d9f7b50899b86e464",
+      "takingAmount": "6.714284",
+      "makingAmount": "2.819999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x814e56ede7c1a1dd4e1a8cfcc0e63d7298da2fd6dd98cea36f243316561cf499"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T12:30:19.491362+00:00",
+    "actual_up": true,
+    "price_open": 80252.3825,
+    "price_close": 80328.5,
+    "pnl": 4.14
+  },
+  {
+    "trade_id": "pb_1778676000",
+    "block_start": "2026-05-13T12:40:00+00:00",
+    "block_end": "2026-05-13T12:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.4,
+    "edge_pp": 14.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.21086725947831422,
+      "body_pct": -0.21086725947831422,
+      "is_xl_body": true,
+      "hour_utc": 12,
+      "candle_close": 79943.08,
+      "candle_open": 80112.01
+    },
+    "dry_run": false,
+    "payout": 7.5,
+    "result": "WIN",
+    "placed_at": "2026-05-13T12:40:30.694302+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x3c762263c9c777452e1479c0bbde019e7799d91d8752c2cf197efd4d396f7fc8",
+      "takingAmount": "7.425",
+      "makingAmount": "2.97",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xd931eaa14c376f57e272d9a7877bd83c8b595adb8740edb13c168dcf53832a6f"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T12:45:17.424831+00:00",
+    "actual_up": true,
+    "price_open": 79919.41466695,
+    "price_close": 80138.78143068,
+    "pnl": 4.5
+  },
+  {
+    "trade_id": "pb_1778676300",
+    "block_start": "2026-05-13T12:45:00+00:00",
+    "block_end": "2026-05-13T12:50:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.469,
+    "ask": 0.34,
+    "edge_pp": 19.1,
+    "bet_size": 3.0,
+    "setups": [
+      "XL_G_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 1,
+      "body_abs": 0.2757712457127201,
+      "body_pct": 0.2757712457127201,
+      "is_xl_body": true,
+      "hour_utc": 12,
+      "candle_close": 80163.53,
+      "candle_open": 79943.07
+    },
+    "dry_run": false,
+    "payout": 8.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T12:45:30.748388+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-13T12:50:22.074873+00:00",
+    "actual_up": true,
+    "price_open": 80138.78143068,
+    "price_close": 80208.00503004,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778677800",
+    "block_start": "2026-05-13T13:10:00+00:00",
+    "block_end": "2026-05-13T13:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.47,
+    "edge_pp": 6.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.049154801499814896,
+      "body_pct": 0.049154801499814896,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80316.46,
+      "candle_open": 80277.0
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "WIN",
+    "placed_at": "2026-05-13T13:10:30.806676+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xeaca78b801a78129e2dd86aec29d1f94136d05e3f9b058357491aae4cbdef8c2",
+      "takingAmount": "6.361701",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x684663781cd181ec60b82c428eab671dcd219a62aa303133f4a523a851664473"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T13:15:19.291871+00:00",
+    "actual_up": false,
+    "price_open": 80293.66455568,
+    "price_close": 80275.77,
+    "pnl": 3.38
+  },
+  {
+    "trade_id": "pb_1778678700",
+    "block_start": "2026-05-13T13:25:00+00:00",
+    "block_end": "2026-05-13T13:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.43,
+    "edge_pp": 11.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.0943462017434555,
+      "body_pct": -0.0943462017434555,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 80224.24,
+      "candle_open": 80300.0
+    },
+    "dry_run": false,
+    "payout": 6.98,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T13:25:30.856189+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x60656e9c3edf8654d5048cbb1ad44f754710d6f8bab667e504ac6b9847f2d26b",
+      "takingAmount": "6.976743",
+      "makingAmount": "2.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x37437c743b961e02ca519bbb3c00d5e856bef713545edf82da8758ae7c8a9454"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T13:30:19.665382+00:00",
+    "actual_up": false,
+    "price_open": 80199.625,
+    "price_close": 80121.21067265,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778679600",
+    "block_start": "2026-05-13T13:40:00+00:00",
+    "block_end": "2026-05-13T13:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.3,
+    "edge_pp": 25.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP",
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 6,
+      "body_abs": 0.3055306361099564,
+      "body_pct": -0.3055306361099564,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 79891.15,
+      "candle_open": 80135.99
+    },
+    "dry_run": false,
+    "payout": 10.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T13:40:30.794294+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x78630b82a6b66c8ccc91d4f6c46fc98212362c87e8026154c428cfe59d47e10c",
+      "takingAmount": "9.580644",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x18ac95e2989ce77c1704e9346eaa95995ee588e0242dc9581b15b7cd4886970e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T13:45:17.605221+00:00",
+    "actual_up": false,
+    "price_open": 79866.00734985,
+    "price_close": 79823.49999999,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778679900",
+    "block_start": "2026-05-13T13:45:00+00:00",
+    "block_end": "2026-05-13T13:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.549,
+    "ask": 0.51,
+    "edge_pp": 3.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S5+R_general_UP",
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 7,
+      "body_abs": 0.05150758250443782,
+      "body_pct": -0.05150758250443782,
+      "is_xl_body": false,
+      "hour_utc": 13,
+      "candle_close": 79850.0,
+      "candle_open": 79891.15
+    },
+    "dry_run": false,
+    "payout": 5.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T13:45:30.690787+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xa45eec119fcf3c66fc059ca3b93de70a66195fe6434df3e8ec77efbbb09170ef",
+      "takingAmount": "6.391303",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4df05b12c99a533e64c5d893e1b030b31a80123181be53f86e0f483abd12e357"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T13:50:20.227416+00:00",
+    "actual_up": false,
+    "price_open": 79823.49999999,
+    "price_close": 79620.57962050001,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778685000",
+    "block_start": "2026-05-13T15:10:00+00:00",
+    "block_end": "2026-05-13T15:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S2+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 2,
+      "body_abs": 0.16532196276694155,
+      "body_pct": -0.16532196276694155,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 79615.58,
+      "candle_open": 79747.42
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T15:10:30.676979+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4e5541f061e8f9056db59a41710e1db464f5def2876520d090ee97b34e7ece77",
+      "takingAmount": "6.361701",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x7fc760ca10bcd821659d7c6f14bf48207e6e5ff963c576a8b262689ace6b45b8"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T15:15:17.105303+00:00",
+    "actual_up": false,
+    "price_open": 79587.7081425,
+    "price_close": 79408.27356842,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778687400",
+    "block_start": "2026-05-13T15:50:00+00:00",
+    "block_end": "2026-05-13T15:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.542,
+    "ask": 0.44,
+    "edge_pp": 10.2,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.09285641551523136,
+      "body_pct": -0.09285641551523136,
+      "is_xl_body": false,
+      "hour_utc": 15,
+      "candle_close": 79177.8,
+      "candle_open": 79251.39
+    },
+    "dry_run": false,
+    "payout": 6.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T15:50:30.818605+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-13T15:55:21.791910+00:00",
+    "actual_up": false,
+    "price_open": 79146.16030378001,
+    "price_close": 79071.16556377,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778687700",
+    "block_start": "2026-05-13T15:55:00+00:00",
+    "block_end": "2026-05-13T16:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.44,
+    "edge_pp": 10.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP",
+      "S3+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.10101317553823609,
+      "body_pct": -0.10101317553823609,
+      "is_xl_body": false,
+      "hour_utc": 15,
+      "candle_close": 79097.81,
+      "candle_open": 79177.79
+    },
+    "dry_run": false,
+    "payout": 6.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T15:55:30.819769+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xf0d87e544ae1a4609e3fd7b114aa73c8ebf890ae14acaf1f0a62e86f91f7cfd6",
+      "takingAmount": "7",
+      "makingAmount": "2.94",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf8f621577e1916c4afbeeee30c272202c04e836daf7e75825362332f139b65ad"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T16:00:17.400702+00:00",
+    "actual_up": false,
+    "price_open": 79071.16556377,
+    "price_close": 78793.69178428,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778690100",
+    "block_start": "2026-05-13T16:35:00+00:00",
+    "block_end": "2026-05-13T16:40:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.463,
+    "ask": 0.46,
+    "edge_pp": 7.7,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.09315927579890085,
+      "body_pct": 0.09315927579890085,
+      "is_xl_body": false,
+      "hour_utc": 16,
+      "candle_close": 79131.8,
+      "candle_open": 79058.15
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T16:35:30.776386+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x2220da6a69ca1de8674f6246ed113598403fda72b46316b95771509e1f609568",
+      "takingAmount": "5.543477",
+      "makingAmount": "2.549999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x2f4898dc0cdf66216da65c350fe6b38a9cd62e1f895b99d8196c87817afaecf6"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T16:40:18.940980+00:00",
+    "actual_up": true,
+    "price_open": 79090.81314369,
+    "price_close": 79099.54621768,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1778690400",
+    "block_start": "2026-05-13T16:40:00+00:00",
+    "block_end": "2026-05-13T16:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.451,
+    "ask": 0.34,
+    "edge_pp": 20.9,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_general_DOWN",
+      "S3+G_general_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.004195532011141453,
+      "body_pct": 0.004195532011141453,
+      "is_xl_body": false,
+      "hour_utc": 16,
+      "candle_close": 79135.12,
+      "candle_open": 79131.8
+    },
+    "dry_run": false,
+    "payout": 8.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-13T16:40:30.883661+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x6852ffbc170e3ad845bb8389e2a9f660d4a1a458f417d3214be6ae808c07c10b",
+      "takingAmount": "8.226284",
+      "makingAmount": "2.729999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x21596bd4b3d3ac0706c19da95e2020d2b184ce3a83c8dc39fd2132dcffec6123"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-13T16:45:18.645223+00:00",
+    "actual_up": true,
+    "price_open": 79099.54621768,
+    "price_close": 79110.17862585,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779053100",
+    "block_start": "2026-05-17T21:25:00+00:00",
+    "block_end": "2026-05-17T21:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.429,
+    "ask": 0.38,
+    "edge_pp": 19.1,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+G_XL_DOWN",
+      "S3+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.14559178443986973,
+      "body_pct": 0.14559178443986973,
+      "is_xl_body": true,
+      "hour_utc": 21,
+      "candle_close": 78422.0,
+      "candle_open": 78307.99
+    },
+    "dry_run": false,
+    "payout": 7.89,
+    "result": "LOSS",
+    "placed_at": "2026-05-17T21:25:31.293164+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-17T21:30:22.876426+00:00",
+    "actual_up": true,
+    "price_open": 78387.0,
+    "price_close": 78393.85,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779099600",
+    "block_start": "2026-05-18T10:20:00+00:00",
+    "block_end": "2026-05-18T10:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.5,
+    "edge_pp": 6.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.024939734401607513,
+      "body_pct": -0.024939734401607513,
+      "is_xl_body": false,
+      "hour_utc": 10,
+      "candle_close": 76765.95,
+      "candle_open": 76785.1
+    },
+    "dry_run": false,
+    "payout": 6.0,
+    "result": "WIN",
+    "placed_at": "2026-05-18T10:20:31.096563+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-18T10:25:22.767738+00:00",
+    "actual_up": true,
+    "price_open": 76718.06861944,
+    "price_close": 76721.91784659,
+    "pnl": 3.0
+  },
+  {
+    "trade_id": "pb_1779111600",
+    "block_start": "2026-05-18T13:40:00+00:00",
+    "block_end": "2026-05-18T13:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.42,
+    "edge_pp": 13.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.16611140662764415,
+      "body_pct": -0.16611140662764415,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 77024.88,
+      "candle_open": 77153.04
+    },
+    "dry_run": false,
+    "payout": 7.14,
+    "result": "LOSS",
+    "placed_at": "2026-05-18T13:40:30.966338+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-18T13:45:22.309372+00:00",
+    "actual_up": false,
+    "price_open": 76990.09180102,
+    "price_close": 76776.4459685,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779111900",
+    "block_start": "2026-05-18T13:45:00+00:00",
+    "block_end": "2026-05-18T13:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.48,
+    "edge_pp": 7.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 6,
+      "body_abs": 0.26604390685191365,
+      "body_pct": -0.26604390685191365,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 76819.96,
+      "candle_open": 77024.88
+    },
+    "dry_run": false,
+    "payout": 6.25,
+    "result": "WIN",
+    "placed_at": "2026-05-18T13:45:30.933999+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-18T13:50:22.294060+00:00",
+    "actual_up": true,
+    "price_open": 76776.4459685,
+    "price_close": 76891.45,
+    "pnl": 3.25
+  },
+  {
+    "trade_id": "pb_1779128100",
+    "block_start": "2026-05-18T18:15:00+00:00",
+    "block_end": "2026-05-18T18:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.10153473098132204,
+      "body_pct": -0.10153473098132204,
+      "is_xl_body": false,
+      "hour_utc": 18,
+      "candle_close": 76438.0,
+      "candle_open": 76515.69
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-18T18:15:31.039852+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x0e0d4765d29b5f68f3893323f64810d49542aefbc8b23065fcd20c77c9038f5e",
+      "takingAmount": "5.764704",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x954e86476afefad695e773f2d1d047edfc8a245a0b5c408085b75fda667d85fa"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-18T18:20:23.780488+00:00",
+    "actual_up": false,
+    "price_open": 76382.5848904,
+    "price_close": 76285.5,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779137100",
+    "block_start": "2026-05-18T20:45:00+00:00",
+    "block_end": "2026-05-18T20:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.47,
+    "edge_pp": 8.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.1472631192744275,
+      "body_pct": -0.1472631192744275,
+      "is_xl_body": true,
+      "hour_utc": 20,
+      "candle_close": 76966.21,
+      "candle_open": 77079.72
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-18T20:45:31.060376+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-18T20:50:21.163599+00:00",
+    "actual_up": false,
+    "price_open": 76909.21,
+    "price_close": 76830.61584500001,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779158700",
+    "block_start": "2026-05-19T02:45:00+00:00",
+    "block_end": "2026-05-19T02:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.49,
+    "edge_pp": 5.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.04498302522436573,
+      "body_pct": -0.04498302522436573,
+      "is_xl_body": false,
+      "hour_utc": 2,
+      "candle_close": 76749.98,
+      "candle_open": 76784.52
+    },
+    "dry_run": false,
+    "payout": 6.12,
+    "result": "WIN",
+    "placed_at": "2026-05-19T02:45:31.079172+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4cdf3c39ac062fee59cd653845fc58211f19b4aeab442fb10e16784f329837a0",
+      "takingAmount": "6.061223",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xb3d3949046fc6978641fcefbe7c539ca77acb9a81f70370e6bdd9a43c53cac3a"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-19T02:50:23.107524+00:00",
+    "actual_up": true,
+    "price_open": 76692.8,
+    "price_close": 76700.88298438,
+    "pnl": 3.12
+  },
+  {
+    "trade_id": "pb_1779182700",
+    "block_start": "2026-05-19T09:25:00+00:00",
+    "block_end": "2026-05-19T09:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.53,
+    "edge_pp": 3.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.04872598256808834,
+      "body_pct": -0.04872598256808834,
+      "is_xl_body": false,
+      "hour_utc": 9,
+      "candle_close": 76902.98,
+      "candle_open": 76940.47
+    },
+    "dry_run": false,
+    "payout": 5.66,
+    "result": "LOSS",
+    "placed_at": "2026-05-19T09:25:31.055519+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x25d218a703eac47744e4d2be9d48bfe5b81f15301a3a3b5cf2bc511247ad0623",
+      "takingAmount": "5.471697",
+      "makingAmount": "2.899999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xb7fa230e405a4586b59e5b8b95ea4217042d754c4d6cd5a0a97a0f729d732791"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-19T09:30:23.292375+00:00",
+    "actual_up": false,
+    "price_open": 76846.25,
+    "price_close": 76707.34397281,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779200400",
+    "block_start": "2026-05-19T14:20:00+00:00",
+    "block_end": "2026-05-19T14:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.43,
+    "edge_pp": 12.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.1860296715564102,
+      "body_pct": -0.1860296715564102,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 76474.28,
+      "candle_open": 76616.81
+    },
+    "dry_run": false,
+    "payout": 6.98,
+    "result": "LOSS",
+    "placed_at": "2026-05-19T14:20:44.741995+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-19T14:25:30.657829+00:00",
+    "actual_up": false,
+    "price_open": 76413.14499999,
+    "price_close": 76371.31327819,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779200700",
+    "block_start": "2026-05-19T14:25:00+00:00",
+    "block_end": "2026-05-19T14:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.36,
+    "edge_pp": 18.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.046956963831504515,
+      "body_pct": -0.046956963831504515,
+      "is_xl_body": false,
+      "hour_utc": 14,
+      "candle_close": 76438.37,
+      "candle_open": 76474.28
+    },
+    "dry_run": false,
+    "payout": 8.33,
+    "result": "WIN",
+    "placed_at": "2026-05-19T14:25:33.126058+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-19T14:30:24.738975+00:00",
+    "actual_up": true,
+    "price_open": 76371.31327819,
+    "price_close": 76381.28267329,
+    "pnl": 5.33
+  },
+  {
+    "trade_id": "pb_1779245100",
+    "block_start": "2026-05-20T02:45:00+00:00",
+    "block_end": "2026-05-20T02:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.46,
+    "edge_pp": 8.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.04972584259343925,
+      "body_pct": -0.04972584259343925,
+      "is_xl_body": false,
+      "hour_utc": 2,
+      "candle_close": 76622.22,
+      "candle_open": 76660.34
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "WIN",
+    "placed_at": "2026-05-20T02:45:31.005868+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-20T02:50:22.445305+00:00",
+    "actual_up": true,
+    "price_open": 76550.13,
+    "price_close": 76585.95204144,
+    "pnl": 3.52
+  },
+  {
+    "trade_id": "pb_1779252000",
+    "block_start": "2026-05-20T04:40:00+00:00",
+    "block_end": "2026-05-20T04:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.44,
+    "edge_pp": 10.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.020571118878669675,
+      "body_pct": -0.020571118878669675,
+      "is_xl_body": false,
+      "hour_utc": 4,
+      "candle_close": 76742.31,
+      "candle_open": 76758.1
+    },
+    "dry_run": false,
+    "payout": 6.82,
+    "result": "LOSS",
+    "placed_at": "2026-05-20T04:40:30.952799+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x12f1ddb269a1b110736ac5d3c69a10d2d1ab8eb9658ef4ac41953da2ba756a21",
+      "takingAmount": "6.681817",
+      "makingAmount": "2.939999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x804ef7a46a68ab55ac98dd5e4623afa7b8b7b044400c8d0b07be4f924f6267c6"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-20T04:45:23.086612+00:00",
+    "actual_up": false,
+    "price_open": 76667.3322238,
+    "price_close": 76662.45835463,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779284400",
+    "block_start": "2026-05-20T13:40:00+00:00",
+    "block_end": "2026-05-20T13:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.38,
+    "edge_pp": 17.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.21827806655572365,
+      "body_pct": -0.21827806655572365,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 77086.04,
+      "candle_open": 77254.67
+    },
+    "dry_run": false,
+    "payout": 7.89,
+    "result": "WIN",
+    "placed_at": "2026-05-20T13:40:31.435040+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-20T13:45:22.497287+00:00",
+    "actual_up": true,
+    "price_open": 77013.64,
+    "price_close": 77018.24455587,
+    "pnl": 4.89
+  },
+  {
+    "trade_id": "pb_1779294600",
+    "block_start": "2026-05-20T16:30:00+00:00",
+    "block_end": "2026-05-20T16:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.39,
+    "edge_pp": 16.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.1824705045726371,
+      "body_pct": -0.1824705045726371,
+      "is_xl_body": true,
+      "hour_utc": 16,
+      "candle_close": 77088.0,
+      "candle_open": 77228.92
+    },
+    "dry_run": false,
+    "payout": 7.69,
+    "result": "WIN",
+    "placed_at": "2026-05-20T16:30:30.981773+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x073e602ca86c47a630457d2dc7a1fa92f37c756bc088eaf3456b4ea93dd7e1f3",
+      "takingAmount": "7.615383",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4aa47be00b907f41acf98619236703fbb470e80819b0a3989d81580859d81f66"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-20T16:35:25.342782+00:00",
+    "actual_up": true,
+    "price_open": 77011.96700971,
+    "price_close": 77098.47603311,
+    "pnl": 4.69
+  },
+  {
+    "trade_id": "pb_1779303600",
+    "block_start": "2026-05-20T19:00:00+00:00",
+    "block_end": "2026-05-20T19:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.38,
+    "edge_pp": 16.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.010810676763877376,
+      "body_pct": -0.010810676763877376,
+      "is_xl_body": false,
+      "hour_utc": 18,
+      "candle_close": 77415.09,
+      "candle_open": 77423.46
+    },
+    "dry_run": false,
+    "payout": 7.89,
+    "result": "LOSS",
+    "placed_at": "2026-05-20T19:00:31.167508+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-20T19:05:21.824995+00:00",
+    "actual_up": false,
+    "price_open": 77338.75638033,
+    "price_close": 77306.36077332,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779346500",
+    "block_start": "2026-05-21T06:55:00+00:00",
+    "block_end": "2026-05-21T07:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.35,
+    "edge_pp": 19.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.010269563808976274,
+      "body_pct": -0.010269563808976274,
+      "is_xl_body": false,
+      "hour_utc": 6,
+      "candle_close": 77600.0,
+      "candle_open": 77607.97
+    },
+    "dry_run": false,
+    "payout": 8.57,
+    "result": "WIN",
+    "placed_at": "2026-05-21T06:55:31.123458+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x0ab0f9074b40b0d87131ffb9fc7109c64301b5b53dbf8ada9f1aed7fe39716db",
+      "takingAmount": "8.571427",
+      "makingAmount": "2.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x09c28dbe457b6cad683c838902b8c740db7e1867ef4854cab8a1d4d6a46b201b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-21T07:00:22.867315+00:00",
+    "actual_up": true,
+    "price_open": 77535.46502874,
+    "price_close": 77546.25552963,
+    "pnl": 5.57
+  },
+  {
+    "trade_id": "pb_1779373200",
+    "block_start": "2026-05-21T14:20:00+00:00",
+    "block_end": "2026-05-21T14:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.39,
+    "edge_pp": 16.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.2244765295285015,
+      "body_pct": -0.2244765295285015,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 76912.97,
+      "candle_open": 77086.01
+    },
+    "dry_run": false,
+    "payout": 7.69,
+    "result": "WIN",
+    "placed_at": "2026-05-21T14:20:31.051857+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-21T14:25:23.036273+00:00",
+    "actual_up": true,
+    "price_open": 76832.39706919,
+    "price_close": 76858.07252041,
+    "pnl": 4.69
+  },
+  {
+    "trade_id": "pb_1779422100",
+    "block_start": "2026-05-22T03:55:00+00:00",
+    "block_end": "2026-05-22T04:00:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.014000232951533761,
+      "body_pct": -0.014000232951533761,
+      "is_xl_body": false,
+      "hour_utc": 3,
+      "candle_close": 77773.53,
+      "candle_open": 77784.42
+    },
+    "dry_run": false,
+    "payout": 6.38,
+    "result": "LOSS",
+    "placed_at": "2026-05-22T03:55:30.919612+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x42059b3735a7c509c41e1703298d8a048ccddb0b108731a2b44db6c990599225",
+      "takingAmount": "7.292681",
+      "makingAmount": "2.989999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xcf440008c4a284cc1b7286a3bf96ef8b5f1021431f3a272954cf4dae336e457a"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-22T04:00:24.080599+00:00",
+    "actual_up": false,
+    "price_open": 77700.80675916,
+    "price_close": 77700.36434212,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779439200",
+    "block_start": "2026-05-22T08:40:00+00:00",
+    "block_end": "2026-05-22T08:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.46,
+    "edge_pp": 10.3,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.06493245434723095,
+      "body_pct": -0.06493245434723095,
+      "is_xl_body": false,
+      "hour_utc": 8,
+      "candle_close": 77307.08,
+      "candle_open": 77357.31
+    },
+    "dry_run": false,
+    "payout": 6.52,
+    "result": "WIN",
+    "placed_at": "2026-05-22T08:40:30.869383+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-22T08:45:19.699813+00:00",
+    "actual_up": true,
+    "price_open": 77307.08,
+    "price_close": 77324.41,
+    "pnl": 3.52
+  },
+  {
+    "trade_id": "pb_1779459900",
+    "block_start": "2026-05-22T14:25:00+00:00",
+    "block_end": "2026-05-22T14:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.5,
+    "edge_pp": 5.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.1504631916289574,
+      "body_pct": -0.1504631916289574,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 76820.0,
+      "candle_open": 76935.76
+    },
+    "dry_run": false,
+    "payout": 6.0,
+    "result": "WIN",
+    "placed_at": "2026-05-22T14:25:30.798452+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-22T14:30:19.815101+00:00",
+    "actual_up": true,
+    "price_open": 76728.99747621,
+    "price_close": 76767.1469569,
+    "pnl": 3.0
+  },
+  {
+    "trade_id": "pb_1779479100",
+    "block_start": "2026-05-22T19:45:00+00:00",
+    "block_end": "2026-05-22T19:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.49,
+    "edge_pp": 5.8,
+    "bet_size": 3.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.00627808900773189,
+      "body_pct": -0.00627808900773189,
+      "is_xl_body": false,
+      "hour_utc": 19,
+      "candle_close": 75814.49,
+      "candle_open": 75819.25
+    },
+    "dry_run": false,
+    "payout": 6.12,
+    "result": "LOSS",
+    "placed_at": "2026-05-22T19:45:30.926399+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x4749cc250d4b735a70552469cfcd51eb37d3299d16b4e1c80687307682252f35",
+      "takingAmount": "6.061223",
+      "makingAmount": "2.969999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x195189cfabc0cf2b23abbd39de045c32d7ff4554e6f855642166e9466bc873da"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-22T19:50:19.794513+00:00",
+    "actual_up": false,
+    "price_open": 75727.01,
+    "price_close": 75644.06951729,
+    "pnl": -3.0
+  },
+  {
+    "trade_id": "pb_1779525600",
+    "block_start": "2026-05-23T08:40:00+00:00",
+    "block_end": "2026-05-23T08:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.46,
+    "edge_pp": 9.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S3+R_XL_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 3,
+      "body_abs": 0.26212963289644886,
+      "body_pct": -0.26212963289644886,
+      "is_xl_body": true,
+      "hour_utc": 8,
+      "candle_close": 74347.87,
+      "candle_open": 74543.27
+    },
+    "dry_run": false,
+    "payout": 4.35,
+    "result": "WIN",
+    "placed_at": "2026-05-23T08:40:30.843890+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x5ba17b5aad33b7dcb01a1d446dfaab5791f93cded72142c30b2ec92c1fb143bd",
+      "takingAmount": "4.534882",
+      "makingAmount": "1.949999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xc47a8d2a4b334aac714df8e91fc650d5f97dd9dfcf09ed95b3b567487d5e5c31"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-23T08:45:21.325321+00:00",
+    "actual_up": true,
+    "price_open": 74288.12,
+    "price_close": 74368.06930135,
+    "pnl": 2.35
+  },
+  {
+    "trade_id": "pb_1779560100",
+    "block_start": "2026-05-23T18:15:00+00:00",
+    "block_end": "2026-05-23T18:20:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.38,
+    "edge_pp": 17.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.18943324347616697,
+      "body_pct": 0.18943324347616697,
+      "is_xl_body": true,
+      "hour_utc": 18,
+      "candle_close": 75700.09,
+      "candle_open": 75556.96
+    },
+    "dry_run": false,
+    "payout": 5.26,
+    "result": "LOSS",
+    "placed_at": "2026-05-23T18:15:31.150565+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x962bb8c0132e311bdeb195211f4f04992e3903616d1af7531e81594358711418",
+      "takingAmount": "4.648647",
+      "makingAmount": "1.719999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x5fefcb22f41bbd9f31276dd030b5ca1f32000c380e1e8e7a1e617259f189acf5"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-23T18:20:21.375961+00:00",
+    "actual_up": true,
+    "price_open": 75614.25931405,
+    "price_close": 75716.93660621,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779568800",
+    "block_start": "2026-05-23T20:40:00+00:00",
+    "block_end": "2026-05-23T20:45:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.37,
+    "edge_pp": 18.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.5852482674821509,
+      "body_pct": 0.5852482674821509,
+      "is_xl_body": true,
+      "hour_utc": 20,
+      "candle_close": 76737.19,
+      "candle_open": 76290.7
+    },
+    "dry_run": false,
+    "payout": 5.41,
+    "result": "LOSS",
+    "placed_at": "2026-05-23T20:40:30.992619+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-23T20:45:20.251760+00:00",
+    "actual_up": true,
+    "price_open": 76660.65689900001,
+    "price_close": 76743.94,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779599700",
+    "block_start": "2026-05-24T05:15:00+00:00",
+    "block_end": "2026-05-24T05:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.44,
+    "edge_pp": 10.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.010449440603143893,
+      "body_pct": -0.010449440603143893,
+      "is_xl_body": false,
+      "hour_utc": 5,
+      "candle_close": 76742.5,
+      "candle_open": 76750.52
+    },
+    "dry_run": false,
+    "payout": 4.55,
+    "result": "LOSS",
+    "placed_at": "2026-05-24T05:15:30.985277+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xf34586d649b57ba37014ba7e80f5071067c32c9448b3c348f14ab59a2374aa33",
+      "takingAmount": "4.454544",
+      "makingAmount": "1.959999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4f39a6fd3b04199c43470a91489d6ab378788e1d7c95ca2db59a705ec91d93c2"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-24T05:20:22.485096+00:00",
+    "actual_up": false,
+    "price_open": 76649.02,
+    "price_close": 76619.87996527,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779619800",
+    "block_start": "2026-05-24T10:50:00+00:00",
+    "block_end": "2026-05-24T10:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.45,
+    "edge_pp": 11.3,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.040365470733807585,
+      "body_pct": -0.040365470733807585,
+      "is_xl_body": false,
+      "hour_utc": 10,
+      "candle_close": 77163.53,
+      "candle_open": 77194.69
+    },
+    "dry_run": false,
+    "payout": 4.44,
+    "result": "LOSS",
+    "placed_at": "2026-05-24T10:50:30.888570+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xe12b99cc3e4e04173f579cfecf3c1073d50897cba7342a96f1da6476b55bdf8f",
+      "takingAmount": "4.444443",
+      "makingAmount": "1.999999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x5c51578ea4c4876968bf6f190a7215c3f46d8126780c23bbc10d08f0441c111e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-24T10:55:20.794515+00:00",
+    "actual_up": false,
+    "price_open": 77070.61943903001,
+    "price_close": 77063.99249999,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779625200",
+    "block_start": "2026-05-24T12:20:00+00:00",
+    "block_end": "2026-05-24T12:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.37,
+    "edge_pp": 19.3,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.15090138713497564,
+      "body_pct": -0.15090138713497564,
+      "is_xl_body": true,
+      "hour_utc": 12,
+      "candle_close": 77099.47,
+      "candle_open": 77215.99
+    },
+    "dry_run": false,
+    "payout": 5.41,
+    "result": "LOSS",
+    "placed_at": "2026-05-24T12:20:30.898009+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x47e1638b0459335bdba71abe5a394a98c999960932a38d0dd1a1d1d9877185d3",
+      "takingAmount": "9",
+      "makingAmount": "1.89",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x70c53a9355a2a300c881b826ffb057696eee7f6828fc9ad209112139838a9c65"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-24T12:25:26.685576+00:00",
+    "actual_up": false,
+    "price_open": 77006.83598602,
+    "price_close": 76985.71209474,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779636900",
+    "block_start": "2026-05-24T15:35:00+00:00",
+    "block_end": "2026-05-24T15:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.45,
+    "edge_pp": 9.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.012125865701118371,
+      "body_pct": -0.012125865701118371,
+      "is_xl_body": false,
+      "hour_utc": 15,
+      "candle_close": 76438.88,
+      "candle_open": 76448.15
+    },
+    "dry_run": false,
+    "payout": 4.44,
+    "result": "WIN",
+    "placed_at": "2026-05-24T15:35:30.861510+00:00",
+    "status": "FAILED",
+    "order_resp": null,
+    "resolved_at": "2026-05-24T15:40:20.123934+00:00",
+    "actual_up": true,
+    "price_open": 76349.35249999,
+    "price_close": 76362.98,
+    "pnl": 2.44
+  },
+  {
+    "trade_id": "pb_1779654300",
+    "block_start": "2026-05-24T20:25:00+00:00",
+    "block_end": "2026-05-24T20:30:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.42,
+    "edge_pp": 12.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.0081378308585832,
+      "body_pct": -0.0081378308585832,
+      "is_xl_body": false,
+      "hour_utc": 20,
+      "candle_close": 76672.67,
+      "candle_open": 76678.91
+    },
+    "dry_run": false,
+    "payout": 4.76,
+    "result": "WIN",
+    "placed_at": "2026-05-24T20:25:30.953450+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xa3917051b4e878339eea12a319c6f18606776c6c54666cb9fccbce1d7431cc2d",
+      "takingAmount": "4.476189",
+      "makingAmount": "1.879999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x357c596b9c1bce69460c97dd3e60e97877bcbc7aa4d7f3d14dd4270a046aa14e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-24T20:30:21.516511+00:00",
+    "actual_up": true,
+    "price_open": 76577.735,
+    "price_close": 76586.25030321,
+    "pnl": 2.76
+  },
+  {
+    "trade_id": "pb_1779675000",
+    "block_start": "2026-05-25T02:10:00+00:00",
+    "block_end": "2026-05-25T02:15:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.41,
+    "edge_pp": 14.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 2,
+      "body_abs": 0.39295296990468875,
+      "body_pct": 0.39295296990468875,
+      "is_xl_body": true,
+      "hour_utc": 2,
+      "candle_close": 77398.69,
+      "candle_open": 77095.74
+    },
+    "dry_run": false,
+    "payout": 4.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-25T02:10:30.995609+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x01e6685c6521d23066e3933559f9c67aa8aed3efda833cdfdaf45885a0ef77c3",
+      "takingAmount": "4.279068",
+      "makingAmount": "1.839999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x8a2b67e4aa49a7a34f33d8bbbf20fd0e53bd827be83cc2a7cffd86939d6dd559"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T02:15:21.400378+00:00",
+    "actual_up": true,
+    "price_open": 77303.90580793,
+    "price_close": 77310.005,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779675600",
+    "block_start": "2026-05-25T02:20:00+00:00",
+    "block_end": "2026-05-25T02:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.43,
+    "edge_pp": 10.1,
+    "bet_size": 2.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.16390788859844135,
+      "body_pct": -0.16390788859844135,
+      "is_xl_body": true,
+      "hour_utc": 2,
+      "candle_close": 77276.36,
+      "candle_open": 77403.23
+    },
+    "dry_run": false,
+    "payout": 4.65,
+    "result": "LOSS",
+    "placed_at": "2026-05-25T02:20:30.884939+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xe9a2796b773a2e380aa095e03769114d2a07edb2a5bdbcd8f2f8a7e28c96b7b3",
+      "takingAmount": "4.465115",
+      "makingAmount": "1.919999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xfaaf0e33c08f92e87e31b91fd738a25f8e18809359a7399871e8064d5a26f472"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T02:25:21.905745+00:00",
+    "actual_up": false,
+    "price_open": 77186.12318740001,
+    "price_close": 77128.56,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779678300",
+    "block_start": "2026-05-25T03:05:00+00:00",
+    "block_end": "2026-05-25T03:10:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.37,
+    "edge_pp": 17.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.03935998460357469,
+      "body_pct": -0.03935998460357469,
+      "is_xl_body": false,
+      "hour_utc": 3,
+      "candle_close": 77078.42,
+      "candle_open": 77108.77
+    },
+    "dry_run": false,
+    "payout": 5.41,
+    "result": "WIN",
+    "placed_at": "2026-05-25T03:05:30.968452+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xf7772d0d6255d84c5e35aa59a35aa17980e19f78e19f8da2a0957442d2b807e1",
+      "takingAmount": "5.108107",
+      "makingAmount": "1.889999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x3868011fdafcc4aaf5bc4966562453d5d800c66af4d9a4d59253a5a0cf9368d8"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T03:10:21.707664+00:00",
+    "actual_up": true,
+    "price_open": 76987.265,
+    "price_close": 76999.9675,
+    "pnl": 3.41
+  },
+  {
+    "trade_id": "pb_1779701700",
+    "block_start": "2026-05-25T09:35:00+00:00",
+    "block_end": "2026-05-25T09:40:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.49,
+    "edge_pp": 6.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 3,
+      "body_abs": 0.13824817618057358,
+      "body_pct": 0.13824817618057358,
+      "is_xl_body": true,
+      "hour_utc": 9,
+      "candle_close": 77627.18,
+      "candle_open": 77520.01
+    },
+    "dry_run": false,
+    "payout": 4.08,
+    "result": "WIN",
+    "placed_at": "2026-05-25T09:35:31.286751+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x1a6be55893a30dc2575f7c59f178352992ea0c32814f1508ff4dc1652951184d",
+      "takingAmount": "3.857141",
+      "makingAmount": "1.889999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xdd358ba53c224e11327489f276444bfa69e1300aa5df2bfdc16f613fc3f82fc5"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T09:40:23.025794+00:00",
+    "actual_up": false,
+    "price_open": 77536.0226746,
+    "price_close": 77513.26300922,
+    "pnl": 2.08
+  },
+  {
+    "trade_id": "pb_1779713400",
+    "block_start": "2026-05-25T12:50:00+00:00",
+    "block_end": "2026-05-25T12:55:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.563,
+    "ask": 0.39,
+    "edge_pp": 17.3,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.027133425355165077,
+      "body_pct": -0.027133425355165077,
+      "is_xl_body": false,
+      "hour_utc": 12,
+      "candle_close": 77337.47,
+      "candle_open": 77358.46
+    },
+    "dry_run": false,
+    "payout": 5.13,
+    "result": "WIN",
+    "placed_at": "2026-05-25T12:50:30.978970+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x29f1a845ecfe6bfcfddcf2f555dbf8ca6cadccc5135fe4127fcb2ae3cad70d21",
+      "takingAmount": "4.95",
+      "makingAmount": "1.98",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x65dd332c45ab61f35b8df68e8210eadde02c229c419c2c9bd816c2177460ed4a"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T12:55:21.713226+00:00",
+    "actual_up": true,
+    "price_open": 77260.93979874,
+    "price_close": 77322.04565309,
+    "pnl": 3.13
+  },
+  {
+    "trade_id": "pb_1779735600",
+    "block_start": "2026-05-25T19:00:00+00:00",
+    "block_end": "2026-05-25T19:05:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.38,
+    "edge_pp": 16.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.030115996867215118,
+      "body_pct": -0.030115996867215118,
+      "is_xl_body": false,
+      "hour_utc": 18,
+      "candle_close": 77543.39,
+      "candle_open": 77566.75
+    },
+    "dry_run": false,
+    "payout": 5.26,
+    "result": "LOSS",
+    "placed_at": "2026-05-25T19:00:31.091527+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x47e734ac8a75a9093565e971d6a13de570dc00a79cb41f6d96ac45362f312c9f",
+      "takingAmount": "5.076922",
+      "makingAmount": "1.979999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xcd9be69e2640bb4add40ee2dc6a34bf846386fc5f9eda1cd4b0f0bf9ebced4f7"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T19:05:21.910818+00:00",
+    "actual_up": false,
+    "price_open": 77483.57757933,
+    "price_close": 77377.35262197,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779741600",
+    "block_start": "2026-05-25T20:40:00+00:00",
+    "block_end": "2026-05-25T20:45:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.38,
+    "edge_pp": 16.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 4,
+      "body_abs": 0.05052413131517262,
+      "body_pct": -0.05052413131517262,
+      "is_xl_body": false,
+      "hour_utc": 20,
+      "candle_close": 77329.88,
+      "candle_open": 77368.97
+    },
+    "dry_run": false,
+    "payout": 5.26,
+    "result": "LOSS",
+    "placed_at": "2026-05-25T20:40:31.736800+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xafa9a3ee94182a0342a2b7ec7e328fdac3aa2baf8900318701ffaca9087cc680",
+      "takingAmount": "4.526314",
+      "makingAmount": "1.719999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x9251fc9bb5dbd701c640adc60edbb86c3a2f89e857d84a09c97806de42183481"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T20:45:20.283533+00:00",
+    "actual_up": false,
+    "price_open": 77262.995,
+    "price_close": 77199.04104443,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779741900",
+    "block_start": "2026-05-25T20:45:00+00:00",
+    "block_end": "2026-05-25T20:50:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.548,
+    "ask": 0.47,
+    "edge_pp": 7.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.08536157045634793,
+      "body_pct": -0.08536157045634793,
+      "is_xl_body": false,
+      "hour_utc": 20,
+      "candle_close": 77263.87,
+      "candle_open": 77329.88
+    },
+    "dry_run": false,
+    "payout": 4.26,
+    "result": "LOSS",
+    "placed_at": "2026-05-25T20:45:30.904551+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xebc00af78df96fc97ee2169d62b401321d405272711e0d009b251c8847f8e121",
+      "takingAmount": "4.148935",
+      "makingAmount": "1.949999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xfaf91e83e2abbf1141a58071918c94ee312badedd0b38e7cd066bef492ef0404"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-25T20:50:20.719527+00:00",
+    "actual_up": false,
+    "price_open": 77199.04104443,
+    "price_close": 77191.995,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779779400",
+    "block_start": "2026-05-26T07:10:00+00:00",
+    "block_end": "2026-05-26T07:15:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.573,
+    "ask": 0.44,
+    "edge_pp": 13.3,
+    "bet_size": 2.0,
+    "setups": [
+      "S5+R_Europe_UP",
+      "S4+R_Europe_UP",
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 6,
+      "body_abs": 0.14633392342235474,
+      "body_pct": -0.14633392342235474,
+      "is_xl_body": true,
+      "hour_utc": 7,
+      "candle_close": 76745.99,
+      "candle_open": 76858.46
+    },
+    "dry_run": false,
+    "payout": 4.55,
+    "result": "LOSS",
+    "placed_at": "2026-05-26T07:10:30.942461+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xaf39ac51c58b2adc829c7dc7c5a2d81547b425b08bb342dc27d349ed3fe1a991",
+      "takingAmount": "4",
+      "makingAmount": "1.96",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x4bb8595e069c4ddbb7291acb68c744f4a5a42d8960b985b52fcfc9d9ee67ad2c"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T07:15:21.969143+00:00",
+    "actual_up": false,
+    "price_open": 76661.3868423,
+    "price_close": 76601.9192012,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779779700",
+    "block_start": "2026-05-26T07:15:00+00:00",
+    "block_end": "2026-05-26T07:20:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.573,
+    "ask": 0.48,
+    "edge_pp": 9.3,
+    "bet_size": 2.0,
+    "setups": [
+      "S5+R_Europe_UP",
+      "S4+R_Europe_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 7,
+      "body_abs": 0.0858937385523312,
+      "body_pct": -0.0858937385523312,
+      "is_xl_body": false,
+      "hour_utc": 7,
+      "candle_close": 76680.07,
+      "candle_open": 76745.99
+    },
+    "dry_run": false,
+    "payout": 4.17,
+    "result": "WIN",
+    "placed_at": "2026-05-26T07:15:30.748177+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x380f9ab56546b5d6c11ce276a94b0c68c8bdff8dba3d05dd1b624b4e047c80a3",
+      "takingAmount": "3.3125",
+      "makingAmount": "1.59",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x2667815e9886afe8588e416b2bc1cbcbca4092a9000f59429952a5211ec7732f"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T07:20:21.664074+00:00",
+    "actual_up": true,
+    "price_open": 76601.9192012,
+    "price_close": 76605.985,
+    "pnl": 2.17
+  },
+  {
+    "trade_id": "pb_1779803400",
+    "block_start": "2026-05-26T13:50:00+00:00",
+    "block_end": "2026-05-26T13:55:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.41,
+    "edge_pp": 14.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.5956361537934445,
+      "body_pct": 0.5956361537934445,
+      "is_xl_body": true,
+      "hour_utc": 13,
+      "candle_close": 77364.09,
+      "candle_open": 76906.01
+    },
+    "dry_run": false,
+    "payout": 4.88,
+    "result": "WIN",
+    "placed_at": "2026-05-26T13:50:30.910308+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x178484ea21bfd6345b2b223fe91ff2fb65c4ea58c3695f891d16ab603ad25609",
+      "takingAmount": "4.487803",
+      "makingAmount": "1.839999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xe9bbc97846992302662badc9834372cf47c516b0cfdf5574062f66b4e1a1254b"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T13:55:22.026330+00:00",
+    "actual_up": false,
+    "price_open": 77283.25563213,
+    "price_close": 77098.22110798,
+    "pnl": 2.88
+  },
+  {
+    "trade_id": "pb_1779805800",
+    "block_start": "2026-05-26T14:30:00+00:00",
+    "block_end": "2026-05-26T14:35:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.46,
+    "edge_pp": 9.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.21859311598803935,
+      "body_pct": 0.21859311598803935,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 77958.4,
+      "candle_open": 77788.36
+    },
+    "dry_run": false,
+    "payout": 4.35,
+    "result": "WIN",
+    "placed_at": "2026-05-26T14:30:31.032635+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0xeb86a38b659c7ce0ebede1dc7de06137e53dc459dc50ab9cab81cfb9e7fd227e",
+      "takingAmount": "3.255318",
+      "makingAmount": "1.529999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x2517ab4ab3fd1ad053440b4d771ad8f258560d4ce6c06df83203f20755b2560e"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T14:35:22.248373+00:00",
+    "actual_up": false,
+    "price_open": 77881.18655016,
+    "price_close": 77475.28986166,
+    "pnl": 2.35
+  },
+  {
+    "trade_id": "pb_1779806100",
+    "block_start": "2026-05-26T14:35:00+00:00",
+    "block_end": "2026-05-26T14:40:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.44,
+    "edge_pp": 9.1,
+    "bet_size": 2.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.5081556317215261,
+      "body_pct": -0.5081556317215261,
+      "is_xl_body": true,
+      "hour_utc": 14,
+      "candle_close": 77562.25,
+      "candle_open": 77958.4
+    },
+    "dry_run": false,
+    "payout": 4.55,
+    "result": "LOSS",
+    "placed_at": "2026-05-26T14:35:30.975899+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x156caf6bec58428e5f6d03c690df44e9e41fd0a97f4e9ba344f47ca0d76d4ccf",
+      "takingAmount": "4.454544",
+      "makingAmount": "1.959999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xf607ab00ad26b92e60883a6b9453308570c7be95f8a80eb43f4bfe09a589fa2f"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T14:40:21.957739+00:00",
+    "actual_up": false,
+    "price_open": 77475.28986166,
+    "price_close": 76842.96,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779808800",
+    "block_start": "2026-05-26T15:20:00+00:00",
+    "block_end": "2026-05-26T15:25:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.531,
+    "ask": 0.4,
+    "edge_pp": 13.1,
+    "bet_size": 2.0,
+    "setups": [
+      "XL_R_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 1,
+      "body_abs": 0.1450961703861328,
+      "body_pct": -0.1450961703861328,
+      "is_xl_body": true,
+      "hour_utc": 15,
+      "candle_close": 76857.96,
+      "candle_open": 76969.64
+    },
+    "dry_run": false,
+    "payout": 5.0,
+    "result": "LOSS",
+    "placed_at": "2026-05-26T15:20:30.830172+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x1e02d1d244b5d6f6bed42fb446c4afb32e7462113bf7ce9625f90e5a0ac70313",
+      "takingAmount": "4.714284",
+      "makingAmount": "1.979999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0xced679429807ceb32b088e4d6f3365d6d1212c192f63241aca67908334fe2d7a"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T15:25:21.784156+00:00",
+    "actual_up": false,
+    "price_open": 76767.09929877,
+    "price_close": 76617.0025,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779816600",
+    "block_start": "2026-05-26T17:30:00+00:00",
+    "block_end": "2026-05-26T17:35:00+00:00",
+    "side": "UP",
+    "p_up_model": 0.558,
+    "ask": 0.38,
+    "edge_pp": 17.8,
+    "bet_size": 2.0,
+    "setups": [
+      "S3+R_XL_UP",
+      "S4+R_general_UP"
+    ],
+    "feature": {
+      "color": 0,
+      "streak_len": 5,
+      "body_abs": 0.15212824660578672,
+      "body_pct": -0.15212824660578672,
+      "is_xl_body": true,
+      "hour_utc": 17,
+      "candle_close": 76069.82,
+      "candle_open": 76185.72
+    },
+    "dry_run": false,
+    "payout": 5.26,
+    "result": "LOSS",
+    "placed_at": "2026-05-26T17:30:31.128155+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x228faf885b513943fb86e484b7ece12cfc1e685ea5d8e7dfe16ba1192b93389a",
+      "takingAmount": "4.526314",
+      "makingAmount": "1.719999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x9e06408dec1e7ad9bd95ddb4b1386ea2bb4916043a792d7620072f5e5fac1f92"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T17:35:22.347807+00:00",
+    "actual_up": false,
+    "price_open": 75974.65414602,
+    "price_close": 75796.60860972,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779819600",
+    "block_start": "2026-05-26T18:20:00+00:00",
+    "block_end": "2026-05-26T18:25:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.41,
+    "edge_pp": 14.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 4,
+      "body_abs": 0.13338944284388496,
+      "body_pct": 0.13338944284388496,
+      "is_xl_body": true,
+      "hour_utc": 18,
+      "candle_close": 76119.41,
+      "candle_open": 76018.01
+    },
+    "dry_run": false,
+    "payout": 4.88,
+    "result": "LOSS",
+    "placed_at": "2026-05-26T18:20:30.853049+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x7d9455571b0684685cbe786fab38b38aac06913aa10b8e7cd094c532f0473e32",
+      "takingAmount": "4.6",
+      "makingAmount": "1.84",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x168d631c02c93470113e050d25ee9b1ee59710b9f4275006f88e3500ea19a7b7"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T18:25:22.182597+00:00",
+    "actual_up": true,
+    "price_open": 75999.07896623001,
+    "price_close": 76125.86562003,
+    "pnl": -2.0
+  },
+  {
+    "trade_id": "pb_1779819900",
+    "block_start": "2026-05-26T18:25:00+00:00",
+    "block_end": "2026-05-26T18:30:00+00:00",
+    "side": "DOWN",
+    "p_up_model": 0.45,
+    "ask": 0.43,
+    "edge_pp": 12.0,
+    "bet_size": 2.0,
+    "setups": [
+      "S2+G_XL_DOWN"
+    ],
+    "feature": {
+      "color": 1,
+      "streak_len": 5,
+      "body_abs": 0.1612072188674144,
+      "body_pct": 0.1612072188674144,
+      "is_xl_body": true,
+      "hour_utc": 18,
+      "candle_close": 76242.13,
+      "candle_open": 76119.42
+    },
+    "dry_run": false,
+    "payout": 4.65,
+    "result": "WIN",
+    "placed_at": "2026-05-26T18:25:30.836516+00:00",
+    "status": "FILLED",
+    "order_resp": {
+      "errorMsg": "",
+      "orderID": "0x9df5209ed69f3144dfd80aa5bebccdc9138d285ee71f719e0f69983ecb9b08f8",
+      "takingAmount": "4.465115",
+      "makingAmount": "1.919999",
+      "status": "matched",
+      "transactionsHashes": [
+        "0x547b64f4db66e8187ee34a865abb2c5c06aa3650a94fdae9af9f39241008187f"
+      ],
+      "success": true
+    },
+    "resolved_at": "2026-05-26T18:30:21.954078+00:00",
+    "actual_up": false,
+    "price_open": 76125.86562003,
+    "price_close": 75983.37995526,
+    "pnl": 2.65
+  }
+]

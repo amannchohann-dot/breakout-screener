@@ -1,0 +1,18 @@
+OOS E[R] pro Trade (auf Margin, % nach Fees+Liq), Spalten = Leverage
+lev              1      5      10     20     50
+signal                                         
+Breakout_15  -0.123 -0.617 -1.234 -2.469 -6.184
+Breakout_60  -0.131 -0.657 -1.313 -2.627 -6.581
+EMA_5_20     -0.121 -0.604 -1.208 -2.416 -6.044
+EMA_9_21     -0.121 -0.606 -1.213 -2.425 -6.066
+M1_port_0.05 -0.123 -0.615 -1.231 -2.462 -6.164
+M1_port_0.10 -0.122 -0.611 -1.223 -2.445 -6.128
+
+Bruttos pro Lev=1: (E[R] + Fee) — das ist der reine Signal-Edge:
+signal
+Breakout_15    -0.014
+Breakout_60    -0.020
+EMA_5_20       -0.011
+EMA_9_21       -0.011
+M1_port_0.05   -0.014
+M1_port_0.10   -0.012

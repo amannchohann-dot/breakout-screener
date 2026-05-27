@@ -1,0 +1,39 @@
+═══ BYBIT-SCALP-SWEEP  ·  50× Isolated BTC/USDT ═══
+Fees: 0.055 % Taker × 2 = 0.11 % round-trip  |  Liquidation: 1.50 % adverse Move
+Risk: 2 % Equity pro Trade (via SL-basiertem Sizing)
+
+Total Param-Kombis: 216
+IS-profitabel:   0/216   (0.0%)
+OOS-profitabel:  0/216   (0.0%)
+
+─── Top 10 nach In-Sample Net-Return ───
+signal                SL    TP  hold  IS trd  IS win    IS ret     IS DD  IS liq |    OOS ret  OOS win
+M1_port_0.05        0.10  0.20    30 140,279   28.3%  -100.00%  -100.00%   4.81% |   -100.00%    27.6%
+Breakout_15         0.10  1.20    30  48,944    1.2%  -100.00%  -100.00%  29.23% |   -100.00%     0.6%
+EMA_5_20            0.50  2.00    30  95,949    0.5%  -100.00%  -100.00%  86.31% |   -100.00%     0.3%
+EMA_5_20            0.80  0.20    30  95,949   41.0%  -100.00%  -100.00%  55.03% |   -100.00%    37.6%
+EMA_5_20            0.80  0.30    30  95,949   26.9%  -100.00%  -100.00%  68.78% |   -100.00%    23.6%
+EMA_5_20            0.80  0.50    30  95,949   12.9%  -100.00%  -100.00%  82.34% |   -100.00%    10.2%
+EMA_5_20            0.80  0.80    30  95,949    5.4%  -100.00%  -100.00%  89.70% |   -100.00%     3.7%
+EMA_5_20            0.80  1.20    30  95,949    2.1%  -100.00%  -100.00%  92.91% |   -100.00%     1.3%
+EMA_5_20            0.80  2.00    30  95,949    0.5%  -100.00%  -100.00%  94.53% |   -100.00%     0.3%
+Breakout_15         0.10  0.20    30  48,944   25.6%  -100.00%  -100.00%  11.33% |   -100.00%    24.5%
+
+─── Beste OOS-Returns (aus den Top-20 IS) ───
+  M1_port_0.05        SL 0.10% TP 0.20% hold 30m  IS -100.00%  →  OOS -100.00% (55448 Trades, 27.6% win)
+  Breakout_15         SL 0.10% TP 1.20% hold 30m  IS -100.00%  →  OOS -100.00% (21908 Trades, 0.6% win)
+  Breakout_15         SL 0.15% TP 0.80% hold 30m  IS -100.00%  →  OOS -100.00% (21908 Trades, 2.4% win)
+  Breakout_15         SL 0.15% TP 0.50% hold 30m  IS -100.00%  →  OOS -100.00% (21908 Trades, 6.9% win)
+  Breakout_15         SL 0.15% TP 0.30% hold 30m  IS -100.00%  →  OOS -100.00% (21908 Trades, 17.4% win)
+
+─── Beste Variante pro Signal (nach IS-Return) ───
+  M1_port_0.05        SL 0.10%  TP 0.20%  hold 30m  → IS -100.00% (140279 Trades, 28.3% win, DD -100.00%, Liq 4.81%) | OOS -100.00%
+  Breakout_15         SL 0.10%  TP 1.20%  hold 30m  → IS -100.00% (48944 Trades, 1.2% win, DD -100.00%, Liq 29.23%) | OOS -100.00%
+  EMA_5_20            SL 0.50%  TP 2.00%  hold 30m  → IS -100.00% (95949 Trades, 0.5% win, DD -100.00%, Liq 86.31%) | OOS -100.00%
+  Breakout_60         SL 0.15%  TP 1.20%  hold 30m  → IS -100.00% (13818 Trades, 1.8% win, DD -100.00%, Liq 39.81%) | OOS -100.00%
+  EMA_9_21            SL 0.80%  TP 2.00%  hold 30m  → IS -100.00% (70493 Trades, 0.4% win, DD -100.00%, Liq 94.67%) | OOS -100.00%
+  M1_port_0.10        SL 0.10%  TP 0.20%  hold 30m  → IS -100.00% (64903 Trades, 29.5% win, DD -100.00%, Liq 1.86%) | OOS -100.00%
+
+─── Sanity-Check: was sagt das Ergebnis? ───
+Robuste Varianten (IS>0 UND OOS>0):  0 / 216
+  ⚠  Keine Variante ist IS und OOS profitabel — Strategien overfittet oder kein Edge nach Fees.

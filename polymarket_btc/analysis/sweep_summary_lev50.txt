@@ -1,0 +1,41 @@
+═══ BYBIT-SCALP-SWEEP  ·  50× Isolated BTC/USDT ═══
+Fees: 0.055 % Taker × 2 = 0.11 % round-trip  |  Liquidation: 1.50 % adverse Move
+Risk: 2 % Equity pro Trade (via SL-basiertem Sizing)
+
+Total Param-Kombis: 216
+IS  mit E[R] > 0 pro Trade:  0/216  (0.0%)
+OOS mit E[R] > 0 pro Trade:  0/216  (0.0%)
+IS-Equity-profitabel:   0/216
+OOS-Equity-profitabel:  0/216
+
+─── Top 10 nach IS  E[R] pro Trade (auf Margin) ───
+signal                SL    TP  hold  IS trd  IS win   IS E[R]  IS liq |   OOS E[R]  OOS win
+EMA_9_21            0.10  1.20    30  70,493   16.9%   -6.050%   0.01% |    -6.066%    18.0%
+EMA_5_20            0.10  1.20    30  95,949   16.9%   -6.057%   0.01% |    -6.044%    18.0%
+EMA_9_21            0.10  2.00    30  70,493   16.8%   -6.057%   0.01% |    -6.066%    17.9%
+EMA_5_20            0.10  2.00    30  95,949   16.9%   -6.058%   0.01% |    -6.036%    18.0%
+EMA_5_20            0.10  0.80    30  95,949   17.2%   -6.064%   0.01% |    -6.064%    18.1%
+EMA_9_21            0.10  0.80    30  70,493   17.1%   -6.067%   0.01% |    -6.059%    18.1%
+EMA_5_20            0.10  0.50    30  95,949   18.1%   -6.100%   0.01% |    -6.060%    18.9%
+EMA_9_21            0.10  0.50    30  70,493   18.1%   -6.103%   0.01% |    -6.087%    18.8%
+EMA_9_21            0.15  1.20    30  70,493   21.1%   -6.107%   0.01% |    -6.209%    21.7%
+EMA_9_21            0.15  2.00    30  70,493   21.0%   -6.111%   0.01% |    -6.200%    21.7%
+
+─── Beste OOS-E[R] aus den Top-20 IS ───
+  EMA_5_20            SL 0.10% TP 2.00% hold 30m  IS E[R] -6.058%  →  OOS E[R] -6.036% (40104 Trades, 18.0% win)
+  EMA_5_20            SL 0.10% TP 1.20% hold 30m  IS E[R] -6.057%  →  OOS E[R] -6.044% (40104 Trades, 18.0% win)
+  EMA_9_21            SL 0.10% TP 0.80% hold 30m  IS E[R] -6.067%  →  OOS E[R] -6.059% (29300 Trades, 18.1% win)
+  EMA_5_20            SL 0.10% TP 0.50% hold 30m  IS E[R] -6.100%  →  OOS E[R] -6.060% (40104 Trades, 18.9% win)
+  EMA_5_20            SL 0.10% TP 0.80% hold 30m  IS E[R] -6.064%  →  OOS E[R] -6.064% (40104 Trades, 18.1% win)
+
+─── Beste Variante pro Signal (nach IS-E[R]) ───
+  EMA_9_21            SL 0.10%  TP 1.20%  hold 30m  → IS E[R] -6.050% (70493 Trades, 16.9% win, Liq 0.01%) | OOS E[R] -6.066%
+  EMA_5_20            SL 0.10%  TP 1.20%  hold 30m  → IS E[R] -6.057% (95949 Trades, 16.9% win, Liq 0.01%) | OOS E[R] -6.044%
+  M1_port_0.10        SL 0.15%  TP 0.80%  hold 30m  → IS E[R] -6.115% (64903 Trades, 20.7% win, Liq 0.02%) | OOS E[R] -6.128%
+  Breakout_15         SL 0.10%  TP 2.00%  hold 30m  → IS E[R] -6.183% (48944 Trades, 16.2% win, Liq 0.01%) | OOS E[R] -6.184%
+  M1_port_0.05        SL 0.10%  TP 2.00%  hold 30m  → IS E[R] -6.213% (140279 Trades, 15.4% win, Liq 0.01%) | OOS E[R] -6.164%
+  Breakout_60         SL 0.20%  TP 1.20%  hold 30m  → IS E[R] -6.522% (13818 Trades, 20.7% win, Liq 0.02%) | OOS E[R] -6.581%
+
+─── Sanity-Check: Edge pro Trade? (IS und OOS beide > 0) ───
+Robuste Varianten (E[R]>0 in IS UND OOS):  0 / 216
+  ⚠  Keine Variante hat positiven Edge pro Trade — die Fees fressen jeden Signal-Edge auf.
