@@ -1,0 +1,43 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.template
+!.env.example
+*.key
+*.pem
+*_secret*
+*_private*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large data files (footprint CSVs stay local)
+*.csv
+!**/footprint_sample_*.csv
+!**/sample_*.csv
+*.parquet
+*.feather
+
+# Runtime / logs
+logs/
+*.pid
+*.log
+*.lock
+
+# Node (existing Vercel parts)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
