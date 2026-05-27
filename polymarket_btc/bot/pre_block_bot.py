@@ -88,7 +88,9 @@ SETUPS = [
      "p_up": 0.396, "side": "DOWN",
      "check": lambda f: f["color"]==1 and f["streak_len"]>=5 and 22 <= f["hour_utc"] <= 23},
 
-    {"name": "S5+R_Europe_UP", "enabled": True,
+    {"name": "S5+R_Europe_UP", "enabled": False,
+     # 2026-05-27 Live-Audit: n=5, WR=20.0%, PnL=-$12.83. Backtest p_up=0.573 deutlich
+     # overfit — Live-Daten zeigen massive Adverse Selection. DEAKTIVIERT.
      "desc": "5+ rote Candles in 07-12 UTC → mean revert UP",
      "p_up": 0.573, "side": "UP",
      "check": lambda f: f["color"]==0 and f["streak_len"]>=5 and 7 <= f["hour_utc"] <= 12},
@@ -103,7 +105,9 @@ SETUPS = [
      "p_up": 0.432, "side": "DOWN",
      "check": lambda f: f["color"]==1 and f["streak_len"]>=4 and 7 <= f["hour_utc"] <= 12},
 
-    {"name": "S4+R_Europe_UP", "enabled": True,
+    {"name": "S4+R_Europe_UP", "enabled": False,
+     # 2026-05-27 Live-Audit: n=14, WR=42.9%, PnL=-$5.48. Wie S5+R_Europe_UP overfit.
+     # Hour-Filter "Europe" zeigt sich in beiden Varianten als nicht generalisierbar.
      "desc": "4+ rote Candles in 07-12 UTC → mean revert UP",
      "p_up": 0.563, "side": "UP",
      "check": lambda f: f["color"]==0 and f["streak_len"]>=4 and 7 <= f["hour_utc"] <= 12},
@@ -212,6 +216,9 @@ def consensus_signal(active_setups):
 class PreBlockConfig:
     BET_SIZE          = float(os.getenv("PRE_BET_SIZE", "5"))
     MIN_EDGE_PP       = float(os.getenv("PRE_MIN_EDGE_PP", "2"))   # min 2pp Edge — viele Trades
+    # 2026-05-27 Live-Audit: Edge >18pp = adverse selection, Live-WR 12% bei n=25.
+    # Wenn der Preis so weit gegen uns läuft, weiß der Markt mehr als wir.
+    MAX_EDGE_PP       = float(os.getenv("PRE_MAX_EDGE_PP", "18"))  # cap gegen adverse selection
     MAX_ASK           = float(os.getenv("PRE_MAX_ASK", "0.65"))    # nicht über 65¢ kaufen
     # MIN_ASK (2026-05-17 Live-Data): bei Ask <30¢ 0-14% Acc (5/5 verloren) → Setup ausgepreist
     MIN_ASK           = float(os.getenv("PRE_MIN_ASK", "0.30"))
@@ -359,7 +366,7 @@ class PreBlockBot:
         log.info("═══ Pre-Block Mean-Reversion Bot ═══")
         log.info(f"Modus:        {'🧪 DRY RUN' if PreBlockConfig.DRY_RUN else '🔴 LIVE'}")
         log.info(f"Bet:          ${PreBlockConfig.BET_SIZE}")
-        log.info(f"Min Edge:     {PreBlockConfig.MIN_EDGE_PP}pp")
+        log.info(f"Edge-Range:   {PreBlockConfig.MIN_EDGE_PP}-{PreBlockConfig.MAX_EDGE_PP}pp")
         log.info(f"Ask-Range:    ${PreBlockConfig.MIN_ASK}–${PreBlockConfig.MAX_ASK}")
         log.info(f"Stunden:      {sorted(PreBlockConfig.ALLOWED_HOURS)} UTC")
         _enabled = sum(1 for s in SETUPS if s.get("enabled", True))
@@ -528,6 +535,11 @@ class PreBlockBot:
 
         if edge < PreBlockConfig.MIN_EDGE_PP:
             log.info(f"   ⏭️ Edge {edge:.1f}pp < {PreBlockConfig.MIN_EDGE_PP}pp — skip")
+            self.last_block_traded = block_start
+            return
+
+        if edge > PreBlockConfig.MAX_EDGE_PP:
+            log.info(f"   ⏭️ Edge {edge:.1f}pp > {PreBlockConfig.MAX_EDGE_PP}pp — adverse selection, skip")
             self.last_block_traded = block_start
             return
 
