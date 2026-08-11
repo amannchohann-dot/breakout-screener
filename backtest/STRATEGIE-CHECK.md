@@ -62,10 +62,39 @@ Regelfassung — jedes Mini-Pivot als Level, jede Kerze als Signal, 1:1 RR — h
 Test keinen Edge. Einschränkung: 8 Wochen sind ein kurzes Fenster; ein längerer Test
 könnte anders ausfallen, aber die Beweislast liegt bei der Strategie, nicht beim Zweifel.
 
+## Nachtrag: Multi-Timeframe-Test über längere Perioden (11.08.2026)
+
+Da IBKR max. ~3.500 Kerzen pro Abfrage liefert, deckt jeder höhere Timeframe
+automatisch eine längere Periode ab. Getestet: Original + die zwei besten
+Varianten aus dem 15m-Test, auf 15m/30m/1h/2h/4h (`multi_timeframe.py`).
+
+| TF | Periode | Original | RR 2:1 | Pivot 5 + RR 2 |
+|---|---|---|---|---|
+| 15m | 2 Monate | −7,9 R | **+9,7 R** | +2,6 R |
+| 30m | 3,5 Monate | −0,8 R | −8,2 R | +10,7 R (nur IS) |
+| 1h | 7 Monate | −14,6 R | −13,4 R | +0,8 R |
+| 2h | **14 Monate** | **+7,6 R** (IS und OOS positiv) | +13,9 R (OOS flat) | −4,3 R |
+| 4h | **2,4 Jahre** | +8,3 R (IS flat) | −7,4 R | −5,3 R |
+
+**Zentrale Erkenntnis:** Die auf 15m gefundenen „Verbesserungen“ **halten auf
+anderen Timeframes nicht** — RR 2:1 ist auf 30m/1h/4h negativ. Was auf einem
+kurzen Fenster wie ein Edge aussah, war Periodenanpassung. Keine Variante ist
+über alle Timeframes konsistent profitabel.
+
+Einziger Kandidat mit Konsistenz: **Original-Regeln auf 2h** (105 Trades über
+14 Monate, in beiden Datenhälften positiv). Aber: +0,072 R/Trade liegt bei
+diesem Stichprobenumfang innerhalb einer Standardabweichung vom Zufall
+(t ≈ 0,7) — statistisch nicht belastbar.
+
+**Gesamtfazit nach 5 Timeframes und bis zu 2,4 Jahren Daten:** Kein robuster,
+statistisch signifikanter Edge in keiner getesteten Regelfassung.
+
 ## Reproduzieren
 
 ```bash
-python3 backtest/liquidity_grab_backtest.py backtest/xauusd_15m.json
+python3 backtest/liquidity_grab_backtest.py backtest/xauusd_15m.json  # Basistest 15m
+python3 backtest/improvement_variants.py backtest/xauusd_15m.json     # Varianten 15m
+cd backtest && python3 multi_timeframe.py                             # alle Timeframes
 ```
 
-(`xauusd_15m.json` = IBKR-Rohdaten, im Repo enthalten.)
+(`xauusd_*.json` = IBKR-Rohdaten, im Repo enthalten.)
