@@ -59,8 +59,57 @@ stabiles positives Signal. Nächste sinnvolle Schritte: Validierung über einen
 längeren Zeitraum inkl. Nicht-Bullenphasen (z. B. Dukascopy-Tickdaten ab 2010)
 und ein Test auf anderen Instrumenten, bevor echtes Geld dranhängt.
 
+## Nachtrag v2 (13.08.2026): Kerzen-Stoploss, Exit-Varianten, 13,6 Jahre Daten
+
+**Mehr Daten:** Externe Quellen (Dukascopy, Stooq, Binance, AlphaVantage) sind
+von der Netzwerk-Policy der Umgebung blockiert. Der IBKR-Deckel liegt bei
+3.500 Kerzen pro Abfrage ohne Datums-Pagination — aber auf Tageskerzen sind
+das **13,6 Jahre (Jan 2013 – Aug 2026)**, inkl. Bärenmarkt 2013–2015,
+Seitwärtsphasen 2016–2018/2021 und dem (in den 2h-Daten verifizierten)
+Spike auf ~5.600 USD mit anschließendem Crash Anfang 2026.
+
+**Getestet** (`trendline_v2.py`, gleiche Signale wie v1): Stop-Loss an der
+Ausbruchskerze vs. 1,5×ATR; fixe RR-Ziele 1–3; Breakeven ab +1R; Exit beim
+Gegensignal. Auf 2h, 4h und 1d, jeweils mit IS/OOS-Split.
+
+### Bestes Ergebnis: SL an der Ausbruchskerze + RR 3:1
+
+| TF | Periode | Trades | WR | Netto | EV (IS / OOS) |
+|---|---|---|---|---|---|
+| 2h | 14 Mon. | 88 | 38,6 % | **+46,6 R** | +0,48 / +0,52 |
+| 4h | 2,4 J. | 108 | 34,3 % | **+37,8 R** | +0,36 / +0,39 |
+| 1d | **13,6 J.** | 110 | 33,6 % | **+35,9 R** | **+0,23 / +0,50** |
+
+Die einzige Variante, die auf **allen drei Timeframes in beiden Datenhälften**
+positiv ist. Entscheidend: Die IS-Hälfte der Tagesdaten ist 2013–2019
+(Bär + Seitwärts) — auch dort +12,5 R. Auf Tagesbasis sind Shorts (+18,8 R)
+so profitabel wie Longs (+17,1 R); 10 von 14 Jahren positiv (schlechtestes
+Jahr −5,3 R in 2018). Max. Drawdown 1d: −14,2 R, längste Verlustserie 8.
+
+Der Kerzen-SL schlägt den ATR-SL, weil er strukturbasiert ist: Die
+Ausbruchskerze definiert das Invalidierungsniveau, und der oft engere Stop
+macht aus demselben Move mehr R.
+
+### Übrige Varianten
+
+- **Breakeven ab +1R:** gut auf 4h (RR3+BE: +43,9 R, konsistent), schwächer
+  auf 2h/1d — kein klarer Zusatznutzen.
+- **Exit bei Gegensignal:** inkonsistent (2h-OOS und 1d-IS negativ) —
+  verworfen.
+- **ATR-SL RR 1:1** (v1-Favorit auf 4h) versagt auf Tagesdaten in der
+  IS-Hälfte (−0,17 R/Trade) — der v1-Favorit war also periodenabhängig,
+  die Kerzen-SL-RR3-Variante ist es nicht.
+
+### Einordnung
+
+t-Statistiken pro Timeframe ≈ 1,8–2,6; 2h/4h überlappen zeitlich, und mit
+inzwischen ~30 getesteten Zellen bleibt Selektionsrisiko. Die Konsistenz
+über drei Timeframes, sechs Datenhälften und 14 Kalenderjahre ist aber das
+robusteste Signal dieser gesamten Untersuchung.
+
 ## Reproduzieren
 
 ```bash
-cd backtest && python3 trendline_breakout.py
+cd backtest && python3 trendline_breakout.py  # v1: ATR-SL, RR-Varianten
+cd backtest && python3 trendline_v2.py        # v2: Kerzen-SL, BE, Gegensignal, 1d
 ```
