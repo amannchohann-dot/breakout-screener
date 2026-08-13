@@ -107,9 +107,34 @@ inzwischen ~30 getesteten Zellen bleibt Selektionsrisiko. Die Konsistenz
 über drei Timeframes, sechs Datenhälften und 14 Kalenderjahre ist aber das
 robusteste Signal dieser gesamten Untersuchung.
 
+## Nachtrag v3 (13.08.2026): Andere Märkte (Out-of-Instrument-Test)
+
+Die auf Gold entwickelte Konfiguration (Kerzen-SL + RR 3:1), unverändert auf
+**Silber (XAGUSD)** angewendet — Kosten relativ skaliert (~0,6 bp wie im
+Gold-Test):
+
+| Markt | Periode | Trades | Netto | EV (IS / OOS) |
+|---|---|---|---|---|
+| Silber 4h | 2,4 J. | 94 | **+29,1 R** | +0,12 / +0,60 |
+| Silber 1d | **13,6 J.** | 88 | **+55,7 R** | **+0,94 / +0,46** |
+
+Silber bestätigt die Strategie ohne jedes Nach-Tuning — auf Tagesbasis sogar
+stärker als Gold. Das ist die wertvollste Validierungsform: Das Setup wurde
+auf einem anderen Instrument gewählt, hier gab es keine Freiheitsgrade mehr.
+
+**Nicht testbar in dieser Session:**
+- **SPY / US-Indizes / Forex:** IBKR-Fehler „Session is connected from a
+  different IP address" — das Konto ist parallel woanders eingeloggt
+  (TWS/Mobile-App), das blockiert konkurrierende Marktdaten-Abfragen.
+- **BTC:** „No market data permissions" — im IBKR-Konto fehlt das (kostenlose)
+  Krypto-Marktdaten-Abo (PAXOS/ZEROHASH).
+- **Gold-Futures (GC/MGC):** laufen faktisch parallel zum getesteten Spot;
+  die XAUUSD-Ergebnisse übertragen sich direkt auf Futures-Ausführung.
+
 ## Reproduzieren
 
 ```bash
 cd backtest && python3 trendline_breakout.py  # v1: ATR-SL, RR-Varianten
 cd backtest && python3 trendline_v2.py        # v2: Kerzen-SL, BE, Gegensignal, 1d
+cd backtest && python3 multi_asset.py         # v3: Silber 4h/1d
 ```
